@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* CSS Document */
+
+.Fondo
+{
+	background-image:url(fondo.jpg);
+	background-repeat:round;
+	background-position:center;
+	background-size: 100% 100%;
+	background-image-width: auto;
+	 
+}
+.border1
+{
+border: #FF0 2px dashed;	
+}
+.border2
+{
+border: #FF0 2px dashed;	
+}
+.border3
+{
+border: #FF0 2px dashed;	
+}
+.border4
+{
+border: #30C 2px dashed;	
+}	
+.border5
+{
+border: #30C 2px dashed;	
+}
+.border6
+{
+border: #30C 2px dashed;	
+}
+.border7
+{
+border: #90C 2px dashed;	
+}
+.border8
+{
+border: #90C 2px dashed;	
+}
+.border9
+{
+border: #90C 2px dashed;	
+}
+.border10
+{
+border:#00F 2px dashed;	
+}
+.border11
+{
+border: #0C0 2px solid;	
+}
+.border22
+{
+border: #0C0 2px solid;	
+}
+.border33
+{
+border: #0C0 2px solid;	
+}
+.border44
+{
+border:  #360 2px solid;	
+}	
+.border55
+{
+border:#360 2px solid;	
+}
+.border66
+{
+border: #360 2px solid;	
+}
+.border77
+{
+border: #903 2px solid;	
+}
+.border88
+{
+border:#903 2px solid;	
+}
+.border99
+{
+border:#903 2px solid;	
+}
+.border1010
+{
+border:#903 2px  solid;	
+}
+.border1111
+{
+border:#00F 2px solid;	
+}
+.border1212
+{
+border:#00F 2px solid;	
+}
+.border1313
+{
+border:#00F 2px solid;	
+}
+.Fondo1
+{
+	background-image:url(fondo1.jpg) ;
+	background-repeat:round;
+	background-position:center;
+	background-size: 100% 100%;
+	background-image-width: auto;
+	 
+	 
+}
