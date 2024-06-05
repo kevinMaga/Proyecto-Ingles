@@ -1,0 +1,728 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Documento sin título</title>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<style type="text/css">
+.borde-1 {
+	border:  DarkTurquoise 5px dotted;
+}
+.borde-81 {
+	border: #0C3 5px solid;
+}
+.borde-2 {
+	border: MediumSeaGreen 5px dotted;
+}
+.borde-3 {
+	border: Orange 5px dotted;
+}
+.borde-4 {
+	border: purple 5px dotted;
+}
+.borde-5 {
+	border: Aqua 5px dotted;
+}
+.borde-6 {
+	border: Magenta 5px dotted;
+}
+.borde-7 {
+	border: Gold 5px dotted;
+}
+.borde-8 {
+	border: DarkOrange 5px dotted;
+}
+.borde-9 {
+	border: LightCoral 5px dotted;
+}
+.borde-10 {
+	border: DeepPink 5px dotted;
+}
+.borde-11 {
+	border: DarkOrchid 5px dotted;
+}
+.borde-12 {
+	border: LawnGreen 5px dotted;
+}
+.borde-13 {
+	border: SpringGreen 5px dotted;
+}
+.borde-14 {
+	border: Coral 5px dotted;
+}
+.borde-15 {
+	border: Chocolate 5px dotted;
+}
+.borde-16 {
+	border: MediumOrchid 5px dotted;
+}
+.borde-17 {
+	border: Crimson 5px dotted;
+}
+.borde-18 {
+	border: LimeGreen 5px dotted;
+}
+.tabla {
+	background-color:  #D2691E;
+	width: 1000px;
+	margin: auto;
+	height: 50px;
+	border-radius:80px;
+}
+.tabla:hover{
+	background-color: #FF7F50;
+	width: 1000px;
+	margin: auto;
+	height: 50px;		
+	border-radius:80px;	
+}
+.tabla1 {
+	background-color: #F00;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla1:hover{
+	background-color: #D4BF00;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla2 {
+	background-color: #D43F55;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla2:hover{
+	background-color: #7F1FAA;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla3 {
+	background-color: #009F00;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla3:hover{
+	background-color: #009FFF;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla4 {
+	background-color: #A0F;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla4:hover{
+	background-color: #AA1FAA;
+    width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla5 {
+	background-color: #D4BF00;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla5:hover{
+	background-color: #2ABF55;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla6 {
+	background-color: #555FFF;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla6:hover{
+	background-color: #FF1F55;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla7 {
+	background-color: #D4BFFF;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla7:hover{
+	background-color: #FF1F55;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla8 {
+	background-color: #FF5F55;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla8:hover{
+	background-color: #009FFF;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla9 {
+	background-color:  	#9370DB;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla9:hover{
+	background-color: #DC143C;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla10 {
+	background-color: #AADF00;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla10:hover{
+	background-color: #7F7FFF;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla11 {
+	background-color: #FF7FAA;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla11:hover{
+	background-color: #FF8080;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla12 {
+	background-color: #096;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla12:hover{
+	background-color: #06F;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla13 {
+	background-color: #6C9;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla13:hover{
+	background-color: #C6C;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla31 {
+	background-color: #009F00;
+	width: 250px;
+	margin: auto;
+	height: 65px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla31:hover{
+	background-color: #009FFF;
+	width: 250px;
+	margin: auto;
+	height: 65px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla71 {
+	background-color: #D4BFFF;
+	width: 250px;
+	margin: auto;
+	height: 65px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla71:hover{
+	background-color: #FF1F55;
+	width: 250px;
+	margin: auto;
+	height: 65px;
+	border-radius:80px;
+	font-size: 30px
+}
+.zoon1 {
+	background: fixed;
+	background-image: url(../Imagenes%20siguiente%20menu,etc/fondo%206.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+</style>
+</head>
+
+<body class="zoon1"  onload="MM_preloadImages('FRUTAS/FRUTAS FIG/manzana2.jpg','FRUTAS/FRUTAS FIG/mandarina2.jpg','FRUTAS/FRUTAS FIG/banana2.jpg','FRUTAS/FRUTAS FIG/durazno2.jpg','FRUTAS/FRUTAS FIG/pera02.jpg','FRUTAS/FRUTAS FIG/limon2.jpg','FRUTAS/FRUTAS FIG/naranja2.jpg','FRUTAS/FRUTAS FIG/fresa2.jpg','FRUTAS/FRUTAS FIG/kiwi2.jpg','FRUTAS/FRUTAS FIG/piña2.jpg','FRUTAS/FRUTAS FIG/granada2.jpg','FRUTAS/FRUTAS FIG/melon2.jpg','FRUTAS/FRUTAS FIG/higo2.jpg','FRUTAS/FRUTAS FIG/sandia2.jpg','FRUTAS/FRUTAS FIG/ciruela2.jpg','FRUTAS/FRUTAS FIG/cereza2.jpg','FRUTAS/FRUTAS FIG/mango2.jpg','FRUTAS/FRUTAS FIG/arandano2.jpg','FRUTAS/FRUTAS FIG/arandano azul2.jpg','FRUTAS/FRUTAS FIG/toronja2.webp','FRUTAS/FRUTAS FIG/frambuesa2.jpeg','FRUTAS/FRUTAS FIG/coco2.jpg','FRUTAS/FRUTAS FIG/lima2.jpg','FRUTAS/FRUTAS FIG/guanabana2.jpg','FRUTAS/FRUTAS FIG/guayaba2.jpg','FRUTAS/FRUTAS FIG/papaya2.jpg','FRUTAS/FRUTAS FIG/uva2.jpg','FRUTAS/FRUTAS FIG/uva1.jpg')">
+
+<br>
+<br>
+
+<div class="tabla"><p align="center"><font face="Arial Black" size="+5">FRUTAS - FRUITS</font></p></div>
+<br>
+<table align="center" width="863" height="43" border="0">
+<tr>
+    <td width="330" height="28">&nbsp;</td>
+    <td width="275" bgcolor="#FFFFFF" class="borde-81" align="center"><font face="Arial Black" size="+3" color="#000000"><b>INGL&Eacute;S</b></font></td>
+    <td width="236" bgcolor="#FFFFFF" class="borde-81" align="center"><font face="Arial Black" size="+3" color="#000000"><b>ESPA&Ntilde;OL</b></font></td>
+  </tr>
+</table>
+
+<table align="center" width="870" border="0">
+<tr>
+    <td width="334" class="borde-1" height="161"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image1','','FRUTAS/FRUTAS FIG/manzana2.jpg',1)"><img src="FRUTAS/FRUTAS FIG/manzana1.jpg" width="335" height="156" id="Image1" /></a></td>
+    <td width="276" style="font-family:'Arial Black'" align="center" onclick="document.getElementById('AUDIO1').play()" ><div class="tabla1" align="center"><p align="center"><audio id="AUDIO1" src="FRUTAS/AUDIOS/manzana.mp3"></audio>APPLE</p></div></td>
+    <td width="238" style="font-family:'Arial Black'" align="center"><div class="tabla1" align="center"><p align="center">MANZANA</p></div></td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table>
+
+<br>
+
+<table align="center" width="875" border="0" >
+<tr>
+    <td width="339" class="borde-2" height="161"><a onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image2','','FRUTAS/FRUTAS FIG/mandarina2.jpg',1)"><img src="FRUTAS/FRUTAS FIG/mandarina1.jpg" width="339" height="156" id="Image2" /></a></td>
+    <td width="274" style="font-family:'Arial Black'" align="center" onclick="document.getElementById('AUDIO2').play()" ><div class="tabla2" align="center"><p align="center"><audio id="AUDIO2" src="FRUTAS/AUDIOS/mandarin.mp3"></audio>MANDARIN</p></div></td>
+    <td width="240" style="font-family:'Arial Black'" align="center"><div class="tabla2" align="center"><p align="center">MANDARINA</p></div></td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table>
+
+<br>
+
+<table align="center" width="871" border="0">
+<tr>
+    <td width="337" class="borde-3" height="161"><a onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image3','','FRUTAS/FRUTAS FIG/banana2.jpg',1)"><img src="FRUTAS/FRUTAS FIG/banana01.jpg" width="338" height="156" id="Image3" /></a></td>
+    <td width="272" style="font-family:'Arial Black'" align="center" onclick="document.getElementById('AUDIO3').play()" ><div class="tabla3" align="center"><p align="center"><audio id="AUDIO3" src="FRUTAS/AUDIOS/banana.mp3"></audio>BANANA</p></div></td>
+    <td width="240" style="font-family:'Arial Black'" align="center"><div class="tabla3" align="center"><p align="center">PLATANO</p></div></td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table>
+
+<br>
+
+<table align="center" width="866" border="0">
+<tr>
+    <td width="336" class="borde-4" height="161"><a  onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image4','','FRUTAS/FRUTAS FIG/durazno2.jpg',1)"><img src="FRUTAS/FRUTAS FIG/durazno1.jpg" width="336" height="156" id="Image4" /></a></td>
+    <td width="271" style="font-family:'Arial Black'" align="center" onclick="document.getElementById('AUDIO4').play()" ><div class="tabla4" align="center"><p align="center"><audio id="AUDIO4" src="FRUTAS/AUDIOS/durazno.mp3"></audio>PEACH</p></div></td>
+    <td width="237" style="font-family:'Arial Black'" align="center"><div class="tabla4" align="center"><p align="center">DURAZNO</p></div></td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table>
+
+<br>
+
+<table align="center" width="861" border="0">
+<tr>
+    <td width="337" class="borde-5" height="161"><a  onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image5','','FRUTAS/FRUTAS FIG/pera02.jpg',1)"><img src="FRUTAS/FRUTAS FIG/pera1.jpg" width="337" height="156" id="Image5" /></a></td>
+    <td width="268" style="font-family:'Arial Black'" align="center" onclick="document.getElementById('AUDIO5').play()" ><div class="tabla5" align="center"><p align="center"><audio id="AUDIO5" src="FRUTAS/AUDIOS/pear.mp3"></audio>PEAR</p></div></td>
+    <td width="234" style="font-family:'Arial Black'" align="center"><div class="tabla5" align="center"><p align="center">PERA</p></div></td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table>
+
+<br>
+
+<table align="center" width="868" border="0">
+<tr>
+    <td width="340" class="borde-6" height="161"><a  onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image6','','FRUTAS/FRUTAS FIG/limon2.jpg',1)"><img src="FRUTAS/FRUTAS FIG/limon1.jpg" width="339" height="156" id="Image6" /></a></td>
+    <td width="270" style="font-family:'Arial Black'" align="center" onclick="document.getElementById('AUDIO6').play()" ><div class="tabla6" align="center"><p align="center"><audio id="AUDIO6" src="FRUTAS/AUDIOS/lemon.mp3"></audio>LEMON</p></div></td>
+    <td width="236" style="font-family:'Arial Black'" align="center"><div class="tabla6" align="center"><p align="center">LIM&Oacute;N</p></div></td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table>
+
+<br>
+
+<table align="center" width="870" border="0">
+<tr>
+    <td width="348" class="borde-7" height="161"><a  onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image7','','FRUTAS/FRUTAS FIG/naranja2.jpg',1)"><img src="FRUTAS/FRUTAS FIG/naranja1.jpg" width="347" height="156" id="Image7" /></a></td>
+    <td width="266" style="font-family:'Arial Black'" align="center" onclick="document.getElementById('AUDIO8').play()" ><div class="tabla7" align="center"><p align="center"><audio id="AUDIO8" src="FRUTAS/AUDIOS/naranja.mp3"></audio>ORANGE</p></div></td>
+    <td width="240" style="font-family:'Arial Black'" align="center"><div class="tabla7" align="center"><p align="center">NARANJA</p></div></td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table>
+
+<br>
+
+<table align="center" width="874" border="0">
+<tr>
+    <td width="347" class="borde-8" height="161"><a  onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image8','','FRUTAS/FRUTAS FIG/fresa2.jpg',1)"><img src="FRUTAS/FRUTAS FIG/fresa1.jpg" width="346" height="156" id="Image8" /></a></td>
+    <td width="266" style="font-family:'Arial Black'" align="center" onclick="document.getElementById('AUDIO9').play()" ><div class="tabla8" align="center"><p align="center"><audio id="AUDIO9" src="FRUTAS/AUDIOS/fresa.mp3"></audio>STRAWBERRY</p></div></td>
+    <td width="239" style="font-family:'Arial Black'" align="center"><div class="tabla8" align="center"><p align="center">FRESA</p></div></td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table>
+
+<br>
+
+<table align="center" width="867" border="0">
+<tr>
+    <td width="342" class="borde-9" height="161"><a  onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image9','','FRUTAS/FRUTAS FIG/kiwi2.jpg',1)"><img src="FRUTAS/FRUTAS FIG/kiwi1.jpg" width="342" height="156" id="Image9" /></a></td>
+    <td width="270" style="font-family:'Arial Black'" align="center" onclick="document.getElementById('AUDIO10').play()" ><div class="tabla9" align="center"><p align="center"><audio id="AUDIO10" src="FRUTAS/AUDIOS/kiwi.mp3"></audio>KIWI</p></div></td>
+    <td width="233" style="font-family:'Arial Black'" align="center"><div class="tabla9" align="center"><p align="center">KIWI</p></div></td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table>
+
+<br>
+
+<table align="center" width="868" border="0">
+<tr>
+    <td width="344" class="borde-10" height="161"><a  onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image10','','FRUTAS/FRUTAS FIG/piña2.jpg',1)"><img src="FRUTAS/FRUTAS FIG/piña1.jpg" width="345" height="156" id="Image10" /></a></td>
+    <td width="269" style="font-family:'Arial Black'" align="center" onclick="document.getElementById('AUDIO11').play()" ><div class="tabla10" align="center"><p align="center"><audio id="AUDIO11" src="FRUTAS/AUDIOS/piña.mp3"></audio>PINEAPPLE</p></div></td>
+    <td width="233" style="font-family:'Arial Black'" align="center"><div class="tabla10" align="center"><p align="center">PI&Ntilde;A</p></div></td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table>
+
+<br>
+
+<table align="center" width="876" border="0">
+<tr>
+    <td width="349" class="borde-11" height="161"><a onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image11','','FRUTAS/FRUTAS FIG/granada2.jpg',1)"><img src="FRUTAS/FRUTAS FIG/granada1.jpg" width="349" height="156" id="Image11" /></a></td>
+    <td width="269" style="font-family:'Arial Black'" align="center" onclick="document.getElementById('AUDIO12').play()" ><div class="tabla11" align="center"><p align="center"><audio id="AUDIO12" src="FRUTAS/AUDIOS/granada.mp3"></audio>POMEGRANATEö</p></div></td>
+    <td width="236" style="font-family:'Arial Black'" align="center"><div class="tabla11" align="center"><p align="center">GRANADA</p></div></td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table>
+
+<br>
+
+<table align="center" width="875" border="0">
+<tr>
+    <td width="348" class="borde-12" height="161"><a  onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image12','','FRUTAS/FRUTAS FIG/melon2.jpg',1)"><img src="FRUTAS/FRUTAS FIG/melon1.jpg" width="347" height="156" id="Image12" /></a></td>
+    <td width="265" style="font-family:'Arial Black'" align="center" onclick="document.getElementById('AUDIO13').play()" ><div class="tabla13" align="center"><p align="center"><audio id="AUDIO13" src="FRUTAS/AUDIOS/melon.mp3"></audio>MELON</p></div></td>
+    <td width="240" style="font-family:'Arial Black'" align="center"><div class="tabla13" align="center"><p align="center">MEL&Oacute;N</p></div></td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table>
+
+<br>
+
+<table align="center" width="876" border="0">
+<tr>
+    <td width="344" class="borde-13" height="161"><a  onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image13','','FRUTAS/FRUTAS FIG/higo2.jpg',1)"><img src="FRUTAS/FRUTAS FIG/higo1.jpg" width="344" height="156" id="Image13" /></a></td>
+    <td width="268" style="font-family:'Arial Black'" align="center" onclick="document.getElementById('AUDIO14').play()" ><div class="tabla1" align="center"><p align="center"><audio id="AUDIO14" src="FRUTAS/AUDIOS/higo.mp3"></audio>FIG</p></div></td>
+    <td width="242" style="font-family:'Arial Black'" align="center"><div class="tabla1" align="center"><p align="center">HIGO</p></div></td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table>
+
+<br>
+
+<table align="center" width="876" border="0">
+<tr>
+    <td width="342" class="borde-14" height="161"><a onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image14','','FRUTAS/FRUTAS FIG/sandia2.jpg',1)"><img src="FRUTAS/FRUTAS FIG/sandia.jpg" width="343" height="156" id="Image14" /></a></td>
+    <td width="270" style="font-family:'Arial Black'" align="center" onclick="document.getElementById('AUDIO15').play()" ><div class="tabla2" align="center"><p align="center"><audio id="AUDIO15" src="FRUTAS/AUDIOS/sandia.mp3"></audio>WATERMELON</p></div></td>
+    <td width="242" style="font-family:'Arial Black'" align="center"><div class="tabla2" align="center"><p align="center">SANDIA</p></div></td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table>
+
+<br>
+
+<table align="center" width="870" border="0">
+<tr>
+    <td width="333" class="borde-15" height="161"><a onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image15','','FRUTAS/FRUTAS FIG/ciruela2.jpg',1)"><img src="FRUTAS/FRUTAS FIG/ciruela1.jpg" width="333" height="156" id="Image15" /></a></td>
+    <td width="270" style="font-family:'Arial Black'" align="center" onclick="document.getElementById('AUDIO16').play()" ><div class="tabla3" align="center"><p align="center"><audio id="AUDIO16" src="FRUTAS/AUDIOS/ciruela.mp3"></audio>PLUM</p></div></td>
+    <td width="245" style="font-family:'Arial Black'" align="center"><div class="tabla3" align="center"><p align="center">CIRUELA</p></div></td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table>
+
+<br>
+
+<table align="center" width="877" border="0">
+<tr>
+    <td width="338" class="borde-16" height="161"><a  onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image27','','FRUTAS/FRUTAS FIG/uva1.jpg',1)"><img src="FRUTAS/FRUTAS FIG/uva0.png" width="333" height="156" id="Image16" /></a></td>
+    <td width="273" style="font-family:'Arial Black'" align="center" onclick="document.getElementById('AUDIO17').play()" ><div class="tabla4" align="center"><p align="center"><audio id="AUDIO17" src="FRUTAS/AUDIOS/uva.mp3"></audio>GRAPE</p></div></td>
+    <td width="244" style="font-family:'Arial Black'" align="center"><div class="tabla4" align="center"><p align="center">UVA</p></div></td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table>
+  
+  <br>
+
+<table align="center" width="880" border="0">
+<tr>
+    <td width="340" class="borde-17" height="161"><a  onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image17','','FRUTAS/FRUTAS FIG/cereza2.jpg',1)"><img src="FRUTAS/FRUTAS FIG/cereza1.jpg" width="339" height="156" id="Image17" /></a></td>
+    <td width="274" style="font-family:'Arial Black'" align="center" onclick="document.getElementById('AUDIO18').play()" ><div class="tabla5" align="center"><p align="center"><audio id="AUDIO18" src="FRUTAS/AUDIOS/cereza.mp3"></audio>CHERRY</p></div></td>
+    <td width="244" style="font-family:'Arial Black'" align="center"><div class="tabla5" align="center"><p align="center">CEREZA</p></div></td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table>
+
+<br>
+
+<table align="center" width="875" border="0">
+<tr>
+    <td width="337" class="borde-18" height="161"><a  onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image18','','FRUTAS/FRUTAS FIG/mango2.jpg',1)"><img src="FRUTAS/FRUTAS FIG/mango1.jpg" width="338" height="156" id="Image18" /></a></td>
+    <td width="275" style="font-family:'Arial Black'" align="center" onclick="document.getElementById('AUDIO19').play()" ><div class="tabla6" align="center"><p align="center"><audio id="AUDIO19" src="FRUTAS/AUDIOS/mango.mp3"></audio>MANGO</p></div></td>
+    <td width="241" style="font-family:'Arial Black'" align="center"><div class="tabla6" align="center"><p align="center">MANGO</p></div></td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table>
+
+<br>
+
+<table align="center" width="876" border="0">
+<tr>
+    <td width="339" class="borde-1" height="161"><a  onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image19','','FRUTAS/FRUTAS FIG/arandano2.jpg',1)"><img src="FRUTAS/FRUTAS FIG/arandano1.jpg" width="337" height="156" id="Image19" /></a></td>
+    <td width="274" style="font-family:'Arial Black'" align="center" onclick="document.getElementById('AUDIO20').play()" ><div class="tabla7" align="center"><p align="center"><audio id="AUDIO20" src="FRUTAS/AUDIOS/arandanorojo.mp3"></audio>CRANBERRY</p></div></td>
+    <td width="241" style="font-family:'Arial Black'" align="center"><div class="tabla7" align="center"><p align="center">ARANDANO ROJO</p></div></td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table>
+
+<br>
+
+<table align="center" width="878" border="0">
+<tr>
+    <td width="341" class="borde-2" height="161"><a  onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image20','','FRUTAS/FRUTAS FIG/arandano azul2.jpg',1)"><img src="FRUTAS/FRUTAS FIG/arandano azul1.jpg" width="340" height="156" id="Image20" /></a></td>
+    <td width="274" style="font-family:'Arial Black'" align="center" onclick="document.getElementById('AUDIO21').play()" ><div class="tabla8" align="center"><p align="center"><audio id="AUDIO21" src="FRUTAS/AUDIOS/arandanoazul.mp3"></audio>BLUEBERRY</p></div></td>
+    <td width="241" style="font-family:'Arial Black'" align="center"><div class="tabla8" align="center"><p align="center">ARANDANO AZUL</p></div></td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table>
+
+<br>
+
+<table align="center" width="878" border="0">
+<tr>
+    <td width="339" class="borde-3" height="161"><a onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image21','','FRUTAS/FRUTAS FIG/toronja2.webp',1)"><img src="FRUTAS/FRUTAS FIG/toronja1.jpg" width="339" height="156" id="Image21" /></a></td>
+    <td width="275" style="font-family:'Arial Black'" align="center" onclick="document.getElementById('AUDIO22').play()" ><div class="tabla9" align="center"><p align="center"><audio id="AUDIO22" src="FRUTAS/AUDIOS/toronja.mp3"></audio>GRAPEFRUIT</p></div></td>
+    <td width="242" style="font-family:'Arial Black'" align="center"><div class="tabla9" align="center"><p align="center">TORONJA</p></div></td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table>
+
+<br>
+
+<table align="center" width="873" border="0">
+<tr>
+    <td width="330" class="borde-4" height="161"><a  onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image22','','FRUTAS/FRUTAS FIG/frambuesa2.jpeg',1)"><img src="FRUTAS/FRUTAS FIG/frambuesa1.jpg" width="329" height="156" id="Image22" /></a></td>
+    <td width="278" style="font-family:'Arial Black'" align="center" onclick="document.getElementById('AUDIO23').play()" ><div class="tabla10" align="center"><p align="center"><audio id="AUDIO23" src="FRUTAS/AUDIOS/frambuesa.mp3"></audio>RASPBERRY</p></div></td>
+    <td width="243" style="font-family:'Arial Black'" align="center"><div class="tabla10" align="center"><p align="center">FRAMBUESA</p></div></td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table>
+
+<br>
+
+<table align="center" width="873" border="0">
+<tr>
+    <td width="332" class="borde-5" height="161"><a  onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image23','','FRUTAS/FRUTAS FIG/coco2.jpg',1)"><img src="FRUTAS/FRUTAS FIG/coco1.jpg" width="331" height="156" id="Image23" /></a></td>
+    <td width="277" style="font-family:'Arial Black'" align="center" onclick="document.getElementById('AUDIO24').play()" ><div class="tabla11" align="center"><p align="center"><audio id="AUDIO24" src="FRUTAS/AUDIOS/coco.mp3"></audio>COCONUT</p></div></td>
+    <td width="242" style="font-family:'Arial Black'" align="center"><div class="tabla11" align="center"><p align="center">COCO</p></div></td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table>
+
+<br>
+
+<table align="center" width="876" border="0">
+<tr>
+    <td width="334" class="borde-6" height="161"><a  onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image24','','FRUTAS/FRUTAS FIG/lima2.jpg',1)"><img src="FRUTAS/FRUTAS FIG/lima1.jpg" width="334" height="156" id="Image24" /></a></td>
+    <td width="277" style="font-family:'Arial Black'" align="center" onclick="document.getElementById('AUDIO25').play()" ><div class="tabla12" align="center"><p align="center"><audio id="AUDIO25" src="FRUTAS/AUDIOS/lima.mp3"></audio>LIME</p></div></td>
+    <td width="243" style="font-family:'Arial Black'" align="center"><div class="tabla12" align="center"><p align="center">LIMA</p></div></td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table>
+
+<br>
+
+<table align="center" width="880" border="0">
+<tr>
+    <td width="336" class="borde-7" height="161"><a  onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image25','','FRUTAS/FRUTAS FIG/guanabana2.jpg',1)"><img src="FRUTAS/FRUTAS FIG/guanabana.jpg" width="334" height="156" id="Image25" /></a></td>
+    <td width="276" style="font-family:'Arial Black'" align="center" onclick="document.getElementById('AUDIO26').play()" ><div class="tabla13" align="center"><p align="center"><audio id="AUDIO26" src="FRUTAS/AUDIOS/guanabana.mp3"></audio>SOURSOP</p></div></td>
+    <td width="246" style="font-family:'Arial Black'" align="center"><div class="tabla13" align="center"><p align="center">GUANABANA</p></div></td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table>
+
+<br>
+
+<table align="center" width="886" border="0">
+<tr>
+    <td width="342" class="borde-8" height="161"><a  onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image26','','FRUTAS/FRUTAS FIG/guayaba2.jpg',1)"><img src="FRUTAS/FRUTAS FIG/guayaba1.jpg" width="342" height="156" id="Image26" /></a></td>
+    <td width="276" style="font-family:'Arial Black'" align="center" onclick="document.getElementById('AUDIO27').play()" ><div class="tabla1" align="center"><p align="center"><audio id="AUDIO27" src="FRUTAS/AUDIOS/guayaba.mp3"></audio>GUAVA</p></div></td>
+    <td width="246" style="font-family:'Arial Black'" align="center"><div class="tabla1" align="center"><p align="center">GUAYABA</p></div></td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table>
+
+<br>
+
+<table align="center" width="888" border="0">
+<tr>
+    <td width="346" class="borde-15" height="161"><a  onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image27','','FRUTAS/FRUTAS FIG/papaya2.jpg',1)"><img src="FRUTAS/FRUTAS FIG/papaya1.jpg" width="344" height="156" id="Image27" /></a></td>
+    <td width="275" style="font-family:'Arial Black'" align="center" onclick="document.getElementById('AUDIO28').play()" ><div class="tabla2" align="center"><p align="center"><audio id="AUDIO28" src="FRUTAS/AUDIOS/papaya.mp3"></audio>PAPAYA</p></div></td>
+    <td width="245" style="font-family:'Arial Black'" align="center"><div class="tabla2" align="center"><p align="center">PAPAYA</p></div></td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table>
+ <table align="center" width="974" height="67" border="0">
+  <tr>
+    <td width="175" height="61"><a href="../PAGINA WEB PADILLA/PAGINA3.html"><img src="../Imagenes siguiente menu,etc/anterior.png" width="100%" height="57"></a></td>
+    <td width="226">&nbsp;</td>
+    <td width="163"><a href="../Menu Vocabulario.html"><img src="../Imagenes siguiente menu,etc/menu.png" width="100%" height="57"></a></td>
+    <td width="201">&nbsp;</td>
+    <td width="175"><a href="../PROYECTO/Vegetales.html"><img src="../Imagenes siguiente menu,etc/siguiente.png" width="100%" height="57"></a></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+</body>
+</html>
+
+

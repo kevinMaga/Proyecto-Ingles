@@ -1,0 +1,407 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Documento sin título</title>
+
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<style type="text/css">
+.borde-1 {
+	border: red 4px outset;
+}
+.borde-2 {
+	border: green 4px ridge;
+}
+.borde-3 {
+	border: Orange 4px outset;
+}
+.borde-4 {
+	border: purple 4px ridge;
+}
+.borde-5 {
+	border: Aqua 4px outset;
+}
+.borde-6 {
+	border: Magenta 4px ridge;
+}
+.borde-7 {
+	border: Gold 4px outset;
+}
+.borde-8 {
+	border: DarkOrange 4px ridge;
+}
+.borde-9 {
+	border: LightCoral 4px outset;
+}
+.borde-10 {
+	border: DeepPink 4px ridge;
+}
+.borde-11 {
+	border: DarkOrchid 4px outset;
+}
+.borde-12 {
+	border: LawnGreen 4px ridge;
+}
+.borde-13 {
+	border: SpringGreen 4px outset;
+}
+.tabla2 {
+	background-color: #5F0;
+	width: 1000px;
+	margin: auto;
+	height: 50px;
+	border-radius:80px;
+}
+.tabla2:hover{
+	background-color: #FF1F55;
+	width: 1000px;
+	margin: auto;
+	height: 50px;		
+	border-radius:80px;	
+}
+.tabla1 {
+	background-color: #F00;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla1:hover{
+	background-color: #D4BF00;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla3 {
+	background-color: #009F00;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla3:hover{
+	background-color: #009FFF;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla4 {
+	background-color: #A0F;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla4:hover{
+	background-color: #AA1FAA;
+    width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla5 {
+	background-color: #D4BF00;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla5:hover{
+	background-color: #2ABF55;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla6 {
+	background-color: #555FFF;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla6:hover{
+	background-color: #FF1F55;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla7 {
+	background-color: #D4BFFF;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla7:hover{
+	background-color: #FF1F55;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla31 {
+	background-color: #009F00;
+	width: 250px;
+	margin: auto;
+	height: 65px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla31:hover{
+	background-color: #009FFF;
+	width: 250px;
+	margin: auto;
+	height: 65px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla71 {
+	background-color: #D4BFFF;
+	width: 250px;
+	margin: auto;
+	height: 65px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla71:hover{
+	background-color: #FF1F55;
+	width: 250px;
+	margin: auto;
+	height: 65px;
+	border-radius:80px;
+	font-size: 30px
+}
+</style>
+</head>
+
+<body  onload="MM_preloadImages('COMEDOR FIG/vajilla2.jpg','COMEDOR FIG/destapador 2.png','COMEDOR FIG/cafetera 2.jpg','COMEDOR FIG/candelabro2.jpg','COMEDOR FIG/taza 2.jpg','COMEDOR FIG/silla 2.jpg','COMEDOR FIG/cuchara2.jpg','COMEDOR FIG/tenedor 2.jpg','COMEDOR FIG/vaso2.jpg','COMEDOR FIG/servilleta2.jpg','COMEDOR FIG/jarro2.jpg','COMEDOR FIG/pimentero2.jpg','COMEDOR FIG/salero2.jpg','COMEDOR FIG/azucarera2.jpg','COMEDOR FIG/mesa2.jpg')">
+<p align="center"><font face="Arial Black" color="#0000CC" size="+3"><marquee bgcolor="#00FFFF">VOCABULARY</marquee></font></p>
+
+
+<div class="tabla2"><p align="center"><font face="Arial Black" size="+4" color="#003366">COMEDOR      -      DINING ROOM</font></p></div>
+<br>
+
+<table align="center" width="961" border="0">
+<tr>
+    <td width="366" bordercolor="#000099" >&nbsp;</td>
+    <td width="298" align="center" style="color:#F00" class="borde-8"><font size="+3"><b>INGL&Eacute;S</b></font></td>
+     <td width="273" align="center" class="borde-1"style="color:#F00" bordercolor="#000099"><font size="+3"><b>ESPAÑOL</b></font></td>
+  </tr>
+</table> 
+<table align="center" width="960" border="0" >
+<tr>
+    <td width="363" height="161" class="borde-1"><a  onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image1','','COMEDOR FIG/vajilla2.jpg',1)"><img src="COMEDOR FIG/vajilla1.jpg" width="365" height="156" id="Image1" /></a></td>
+    <td width="301" style="font-family:'Arial Black'" align="center" onclick="document.getElementById('AUDIO2').play()" ><div class="tabla1" align="center"><p align="center"><audio id="AUDIO2" src="COMEDOR FIG/audios/vajilla.mp3"></audio>CROCKERY</p></div></td>
+    <td width="274" style="font-family:'Arial Black'" align="center"><div class="tabla1" align="center"><p align="center">VAJILLA</p></div></td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table>
+<br>
+<table align="center" width="957" border="0">
+<tr>
+    <td width="364" height="161" class="borde-2"><a  onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image2','','COMEDOR FIG/destapador 2.png',1)"><img src="COMEDOR FIG/destapador 1.jpg" width="365" height="156" id="Image2" /></a></td>
+    <td width="298" style="font-family:'Arial Black'" align="center" onclick="document.getElementById('AUDIO11').play()" ><div class="tabla31" align="center"><p align="center"><audio id="AUDIO11" src="COMEDOR FIG/audios/destapador.mp3"></audio>BOTTLE OPENER</p></div></td>
+    <td width="273" style="font-family:'Arial Black'" align="center"><div class="tabla3" align="center"><p align="center">DESTAPADOR</p></div></td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table>
+<BR>
+<table align="center" width="964" border="0"  >
+<tr>
+    <td width="370" height="161" class="borde-3"><a  onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image3','','COMEDOR FIG/cafetera 2.jpg',1)"><img src="COMEDOR FIG/cafetera 1.jpeg" width="372" height="156" id="Image3" /></a></td>
+    <td width="298" style="font-family:'Arial Black'" align="center"onclick="document.getElementById('AUDIO3').play()" ><div class="tabla4" align="center"><p align="center"><audio id="AUDIO3" src="COMEDOR FIG/audios/cafeteria.mp3"></audio>COFFEE POT</p></div></td>
+    <td width="274" style="font-family:'Arial Black'" align="center"><div class="tabla4" align="center"><p align="center">CAFETERA</p></div></td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table>
+<BR>
+<table align="center" width="963" border="0"  >
+<tr>
+    <td width="370" height="161" class="borde-4"><a onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image4','','COMEDOR FIG/candelabro2.jpg',1)"><img src="COMEDOR FIG/candelabro1.jpg" width="371" height="156" id="Image4" /></a></td>
+    <td width="300" style="font-family:'Arial Black'" align="center" onclick="document.getElementById('AUDIO12').play()" ><div class="tabla5" align="center"><p align="center"><audio id="AUDIO12" src="COMEDOR FIG/audios/candelabro.mp3"></audio>CHANDELIER</p></div></td>
+    <td width="271" style="font-family:'Arial Black'" align="center"><div class="tabla5" align="center"><p align="center">CANDELABRO</p></div></td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table>
+<BR>
+<table align="center" width="966" border="0" >
+<tr>
+    <td width="375" height="161" class="borde-5"><a  onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image5','','COMEDOR FIG/taza 2.jpg',1)"><img src="COMEDOR FIG/taza 1.jpg" width="375" height="156" id="Image5" /></a></td>
+    <td width="300" style="font-family:'Arial Black'" align="center"onclick="document.getElementById('AUDIO4').play()" ><div class="tabla6" align="center"><p align="center"><audio id="AUDIO4" src="COMEDOR FIG/audios/taza.mp3"></audio>CUP</p></div></td>
+    <td width="269" style="font-family:'Arial Black'" align="center"><div class="tabla6" align="center"><p align="center">TAZA</p></div></td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table>
+<br>
+<table align="center" width="969" border="0"  >
+<tr>
+    <td width="377" height="161" class="borde-6"><a  onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image6','','COMEDOR FIG/silla 2.jpg',1)"><img src="COMEDOR FIG/silla01.jpg" width="378" height="156" id="Image6" /></a></td>
+    <td width="301" style="font-family:'Arial Black'" align="center"onclick="document.getElementById('AUDIO5').play()" ><div class="tabla7" align="center"><p align="center"><audio id="AUDIO5" src="COMEDOR FIG/audios/silla.mp3"></audio>CHAIR</p></div></td>
+    <td width="269" style="font-family:'Arial Black'" align="center"><div class="tabla7" align="center"><p align="center">SILLA</p></div></td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table>
+<BR>
+<table align="center" width="970" border="0">
+<tr>
+    <td width="379" height="161" class="borde-7"><a  onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image7','','COMEDOR FIG/cuchara2.jpg',1)"><img src="COMEDOR FIG/cuchara 1.jpg" width="380" height="156" id="Image7" /></a></td>
+    <td width="303" style="font-family:'Arial Black'" align="center"onclick="document.getElementById('AUDIO6').play()" ><div class="tabla1" align="center"><p align="center"><audio id="AUDIO6" src="COMEDOR FIG/audios/cuchara.mp3"></audio>SPOON</p></div></td>
+    <td width="266" style="font-family:'Arial Black'" align="center"><div class="tabla1" align="center"><p align="center">CUCHARA</p></div></td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table>
+<BR>
+<table align="center" width="967" border="0">
+<tr>
+    <td width="376" height="161" class="borde-8"><a  onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image8','','COMEDOR FIG/tenedor 2.jpg',1)"><img src="COMEDOR FIG/tenedor.jpg" width="376" height="156" id="Image8" /></a></td>
+    <td width="310" style="font-family:'Arial Black'" align="center"onclick="document.getElementById('AUDIO7').play()" ><div class="tabla3" align="center"><p align="center"><audio id="AUDIO7" src="COMEDOR FIG/audios/tenedor.mp3"></audio>FORK</p></div></td>
+    <td width="259" style="font-family:'Arial Black'" align="center"><div class="tabla3" align="center"><p align="center">TENEDOR</p></div></td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table>
+<br>
+
+<table align="center" width="973" border="0">
+<tr>
+    <td width="378" height="161" class="borde-9"><a  onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image9','','COMEDOR FIG/vaso2.jpg',1)"><img src="COMEDOR FIG/vaso1.jpg" width="378" height="156" id="Image9" /></a></td>
+    <td width="313" style="font-family:'Arial Black'" align="center"onclick="document.getElementById('AUDIO8').play()" ><div class="tabla4" align="center"><p align="center"><audio id="AUDIO8" src="COMEDOR FIG/audios/vaso.mp3"></audio>GLASS</p></div></td>
+    <td width="260" style="font-family:'Arial Black'" align="center"><div class="tabla4" align="center"><p align="center">VASO</p></div></td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table>
+<BR>
+
+<table align="center" width="975" border="0">
+<tr>
+    <td width="378" height="161" class="borde-10"><a  onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image10','','COMEDOR FIG/servilleta2.jpg',1)"><img src="COMEDOR FIG/servilleta 1.jpg" width="379" height="156" id="Image10" /></a></td>
+    <td width="314" style="font-family:'Arial Black'" align="center"onclick="document.getElementById('AUDIO9').play()" ><div class="tabla5" align="center"><p align="center"><audio id="AUDIO9" src="COMEDOR FIG/audios/servilleta.mp3"></audio>NAPKIN</p></div></td>
+    <td width="261" style="font-family:'Arial Black'" align="center"><div class="tabla5" align="center"><p align="center">SERVILLETA</p></div></td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table>
+<BR>
+
+<table align="center" width="974" border="0">
+<tr>
+    <td width="382" height="161" class="borde-11"><a  onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image11','','COMEDOR FIG/jarro2.jpg',1)"><img src="COMEDOR FIG/jaroo1.jpg" width="383" height="156" id="Image11" /></a></td>
+    <td width="313" style="font-family:'Arial Black'" align="center"onclick="document.getElementById('AUDIO10').play()" ><div class="tabla6" align="center"><p align="center"><audio id="AUDIO10" src="COMEDOR FIG/audios/jarra.mp3"></audio>JUG</p></div></td>
+    <td width="257" style="font-family:'Arial Black'" align="center"><div class="tabla6" align="center"><p align="center">JARRO</p></div></td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table>
+<BR>
+<table align="center" width="971" border="0">
+<tr>
+    <td width="380" height="161" class="borde-12"><a onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image12','','COMEDOR FIG/pimentero2.jpg',1)"><img src="COMEDOR FIG/pimentero1.jpg" width="379" height="156" id="Image12" /></a></td>
+    <td width="316" style="font-family:'Arial Black'" align="center" onclick="document.getElementById('AUDIO13').play()" ><div class="tabla71" align="center"><p align="center"><audio id="AUDIO13" src="COMEDOR FIG/audios/pimentero.mp3"></audio>PEPPER SHAKER</p></div></td>
+    <td width="253" style="font-family:'Arial Black'" align="center"><div class="tabla7" align="center"><p align="center">PIMENTERO</p></div></td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table>
+<BR>
+<table align="center" width="980" border="0">
+<tr>
+    <td width="382" height="161" class="borde-13"><a  onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image13','','COMEDOR FIG/salero2.jpg',1)"><img src="COMEDOR FIG/salero1.jpg" width="384" height="156" id="Image13" /></a></td>
+    <td width="319" style="font-family:'Arial Black'" align="center" onclick="document.getElementById('AUDIO14').play()" ><div class="tabla4" align="center"><p align="center"><audio id="AUDIO14" src="COMEDOR FIG/audios/salero.mp3"></audio>SALT SHAKER</p></div></td>
+    <td width="257" style="font-family:'Arial Black'" align="center"><div class="tabla4" align="center"><p align="center">SALERO</p></div></td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table>
+<BR>
+
+<table align="center" width="985" border="0">
+<tr>
+    <td width="388" height="161" class="borde-1"><a onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image14','','COMEDOR FIG/azucarera2.jpg',1)"><img src="COMEDOR FIG/azucarera.jpg" width="389" height="156" id="Image14" /></a></td>
+    <td width="320" style="font-family:'Arial Black'" align="center" onclick="document.getElementById('AUDIO15').play()" ><div class="tabla5" align="center"><p align="center"><audio id="AUDIO15" src="COMEDOR FIG/audios/azucarero.mp3"></audio>SUGAR BOWL</p></div></td>
+    <td width="263" style="font-family:'Arial Black'" align="center"><div class="tabla5" align="center"><p align="center">AZUCARERA</p></div></td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table>
+<BR>
+
+<table align="center" width="983" border="0">
+<tr>
+    <td width="383" height="161" class="borde-2"><a  onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image15','','COMEDOR FIG/mesa2.jpg',1)"><img src="COMEDOR FIG/mesa1.jpg" width="383" height="156" id="Image15" /></a></td>
+    <td width="320" style="font-family:'Arial Black'" align="center" onclick="document.getElementById('AUDIO16').play()" ><div class="tabla6" align="center"><p align="center"><audio id="AUDIO16" src="COMEDOR FIG/audios/mesa.mp3"></audio> TABLE</p></div></td>
+    <td width="258" style="font-family:'Arial Black'" align="center"><div class="tabla6" align="center"><p align="center">MESA</p></div></td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table>
+<table align="center" width="200" border="0">
+  <tr>
+    <td height="65"><a href="../Partes de la casa.html"><img src="../Imagenes siguiente menu,etc/menu.png" width="100%" height="65" /></a></td>
+  </tr>
+</table>
+</body>
+</html>
+
+
+

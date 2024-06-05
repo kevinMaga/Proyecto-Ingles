@@ -1,0 +1,925 @@
+<html>
+<head>
+<title>Documento sin título</title>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<style type="text/css">
+.fondo {
+	background-image:url(../Imagenes%20siguiente%20menu,etc/fondo%209.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.borde-1 {
+	border:  DarkTurquoise 5px dashed;
+}
+.borde-2 {
+	border: MediumSeaGreen 5px dashed;
+}
+.borde-3 {
+	border: Orange 5px dashed;
+}
+.borde-4 {
+	border: purple 5px dashed;
+}
+.borde-5 {
+	border: Aqua 5px dashed;
+}
+.borde-6 {
+	border: Magenta 5px dashed;
+}
+.borde-7 {
+	border: Gold 5px dashed;
+}
+.borde-8 {
+	border: DarkOrange 5px dashed;
+}
+.borde-9 {
+	border: LightCoral 5px dashed;
+}
+.borde-10 {
+	border: DeepPink 5px dashed;
+}
+.borde-11 {
+	border: DarkOrchid 5px dashed;
+}
+.borde-12 {
+	border: LawnGreen 5px dashed;
+}
+.borde-13 {
+	border: SpringGreen 5px dashed;
+}
+.borde-14 {
+	border: Coral 5px dashed;
+}
+.borde-15 {
+	border: Chocolate 5px dashed;
+}
+.borde-16 {
+	border: MediumOrchid 5px dashed;
+}
+.borde-17 {
+	border: Crimson 5px dashed;
+}
+.borde-18 {
+	border: LimeGreen 5px dashed;
+}
+
+.tabla {
+	background-color:  #D2691E;
+	width: 1000px;
+	margin: auto;
+	height: 50px;
+	border-radius:80px;
+}
+.tabla:hover{
+	background-color: #FF7F50;
+	width: 1000px;
+	margin: auto;
+	height: 50px;		
+	border-radius:80px;	
+}
+.tabla1 {
+	background-color: #F00;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla1:hover{
+	background-color: #D4BF00;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla2 {
+	background-color: #D43F55;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla2:hover{
+	background-color: #7F1FAA;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla3 {
+	background-color: #009F00;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 28px
+}
+.tabla3:hover{
+	background-color: #009FFF;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 28px
+}
+.tabla4 {
+	background-color: #A0F;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla4:hover{
+	background-color: #AA1FAA;
+    width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla5 {
+	background-color: #D4BF00;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla5:hover{
+	background-color: #2ABF55;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla6 {
+	background-color: #555FFF;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla6:hover{
+	background-color: #FF1F55;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla7 {
+	background-color: #D4BFFF;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla7:hover{
+	background-color: #FF1F55;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla8 {
+	background-color: #FF5F55;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla8:hover{
+	background-color: #009FFF;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla9 {
+	background-color:  	#9370DB;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla9:hover{
+	background-color: #DC143C;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla10 {
+	background-color: #AADF00;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla10:hover{
+	background-color: #7F7FFF;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla11 {
+	background-color: #FF7FAA;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla11:hover{
+	background-color: #FF8080;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla12 {
+	background-color: #096;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla12:hover{
+	background-color: #06F;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla13 {
+	background-color: #6C9;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla13:hover{
+	background-color: #C6C;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla21 {
+	background-color: #D43F55;
+	width: 250px;
+	margin: auto;
+	height: 65px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla21:hover{
+	background-color: #7F1FAA;
+	width: 250px;
+	margin: auto;
+	height: 65px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla71 {
+	background-color: #D4BFFF;
+	width: 250px;
+	margin: auto;
+	height: 65px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla71:hover{
+	background-color: #FF1F55;
+	width: 250px;
+	margin: auto;
+	height: 65px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla41 {
+	background-color: #A0F;
+	width: 250px;
+	margin: auto;
+	height: 65px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla41:hover{
+	background-color: #AA1FAA;
+	width: 250px;
+	margin: auto;
+	height: 65px;
+	border-radius:80px;
+	font-size: 30px
+}
+</style>
+</head>
+
+<body class="fondo" onLoad="MM_preloadImages('VERBOS/imagenes/lanzar 2.jpg','VERBOS/imagenes/aprender2.png','VERBOS/imagenes/mentir2.jpg','VERBOS/imagenes/escuchar2.jpg','VERBOS/imagenes/aligerar2.jpg','VERBOS/imagenes/vivi2.jpg','VERBOS/imagenes/reir2.jpg','VERBOS/imagenes/cargar02.jpg','VERBOS/imagenes/amor2.jpg','VERBOS/imagenes/etiquetar2.jpg')">
+<br>
+<br>
+<marquee bgcolor="#FFCC00" scrollamount="10"><font face="Arial Black" size="+5">VERBOS - VERBS</font></marquee>
+<br>
+
+<p align="left"><font face="Arial Black" size="+3" color="#000099">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LABEL - ETIQUETAR</p></font>
+<table align="center" width="1036" border="0">
+  <tr>
+    <td width="295">&nbsp;</td>
+    <td width="50">&nbsp;</td>
+    <td width="59">&nbsp;</td>
+    <td width="183" style="font:'Arial Black'" align="center" bgcolor="#FFCCCC"><font size="+2" color="#990000"><b><u>PRESENT</b></u></font></td>
+    <td width="39">&nbsp;</td>
+    <td width="166" style="font:'Arial Black'" align="center" bgcolor="#FFCCCC"><font size="+2" color="#990000"><b><u>PAST</b></u><font></td>
+    <td width="41">&nbsp;</td>
+    <td width="169" style="font:'Arial Black'" align="center" bgcolor="#FFCCCC"><font size="+2" color="#990000"><b><u>FUTURE</u></b></font></td>
+  </tr>
+</table>
+<br>
+
+<table align="center" width="1054" border="0">
+  <tr>
+    <td width="293" rowspan="7"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','VERBOS/imagenes/etiquetar2.jpg',1)"><img src="VERBOS/imagenes/etiquetar1.jpg" width="339" height="207" id="Image10"></a></td>
+    <td width="57" height="34" align="center" style="font:'Arial Black'" >&nbsp;</td>
+    <td width="4" rowspan="7">&nbsp;</td>
+    <td width="201" rowspan="2" align="center" style="font:'Arial Black'">&nbsp;</td>
+    <td width="8" rowspan="7">&nbsp;</td>
+    <td width="204" rowspan="2" align="center" style="font:'Arial Black'"  onclick="document.getElementById('AUDIO16').play()" ><audio id="AUDIO16" src="VERBOS/audios/labelled.mp3"></audio>      <audio id="AUDIO17" src="VERBOS/audios/labelled.mp3"></audio></td>
+    <td width="6" rowspan="7">&nbsp;</td>
+    <td width="233" rowspan="2" align="center" style="font:'Arial Black'">&nbsp;</td>
+  </tr>
+  <tr>
+    <td style="font:'Arial Black'" align="center" >&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="28" align="center" style="font:'Arial Black'"></audio></td>
+    <td rowspan="3" align="center" style="font:'Arial Black'"  onclick="document.getElementById('AUDIO10').play()" ><div class="tabla9" align="center"><p align="center"><audio id="AUDIO10" src="VERBOS/audios/labels.mp3"></audio>      LABEL
+    <audio id="AUDIO12" src="VERBOS/audios/label.mp3"></audio  onclick="document.getElementById('AUDIO13').play()" ><audio id="AUDIO13" src="VERBOS/audios/label.mp3"></audio></p></div></td>
+    <td rowspan="3" align="center" style="font:'Arial Black'" onClick="document.getElementById('AUDIO18').play()" ><div class="tabla9" align="center"><p align="center"><audio id="AUDIO18" src="VERBOS/audios/labelled.mp3"></audio>      LABELLED
+    <audio id="AUDIO20" src="VERBOS/audios/labelled.mp3"></audio></p></div></td>
+    <td rowspan="3" align="center" style="font:'Arial Black'"><div class="tabla9" align="center"><p align="center">WILL LABEL</p></div></td>
+  </tr>
+  <tr>
+    <td style="font:'Arial Black'" align="center">&nbsp;</td>
+  </tr>
+  <tr>
+    <td style="font:'Arial Black'" align="center">&nbsp;</td>
+  </tr>
+  <tr>
+    <td style="font:'Arial Black'" align="center">&nbsp;</td>
+    <td rowspan="2" align="center" style="font:'Arial Black'">&nbsp;</td>
+    <td rowspan="2" align="center" style="font:'Arial Black'">&nbsp;</td>
+    <td rowspan="2" align="center" style="font:'Arial Black'">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="29" align="center" style="font:'Arial Black'">&nbsp;</td>
+  </tr>
+ 
+</table>
+<br>
+<br>
+
+<p align="left"><font face="Arial Black" size="+3"  color="#000099">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LAUNCH - LANZAR</p></font>
+
+<table align="center" width="1036" border="0">
+  <tr>
+    <td width="295">&nbsp;</td>
+    <td width="50">&nbsp;</td>
+    <td width="59">&nbsp;</td>
+    <td width="183" style="font:'Arial Black'" align="center" bgcolor="#FFCCCC"><font size="+2" color="#990000"><b><u>PRESENT</b></u></font></td>
+    <td width="39">&nbsp;</td>
+    <td width="166" style="font:'Arial Black'" align="center" bgcolor="#FFCCCC"><font size="+2" color="#990000"><b><u>PAST</b></u><font></td>
+    <td width="41">&nbsp;</td>
+    <td width="169" style="font:'Arial Black'" align="center" bgcolor="#FFCCCC"><font size="+2" color="#990000"><b><u>FUTURE</u></b></font></td>
+  </tr>
+</table>
+<br>
+
+<table align="center" width="1054" border="0">
+  <tr>
+    <td width="293" rowspan="7"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image1','','VERBOS/imagenes/lanzar 2.jpg',1)"><img src="VERBOS/imagenes/lanzar.jpg" width="339" height="207" id="Image1"></a></td>
+    <td width="57" height="28" align="center" style="font:'Arial Black'">&nbsp;</td>
+    <td width="4" rowspan="7">&nbsp;</td>
+    <td width="201" rowspan="2" align="center" style="font:'Arial Black'">&nbsp;</td>
+    <td width="8" rowspan="7">&nbsp;</td>
+    <td width="204" rowspan="2" align="center" style="font:'Arial Black'">&nbsp;</td>
+    <td width="6" rowspan="7">&nbsp;</td>
+    <td width="204" rowspan="2" align="center" style="font:'Arial Black'">&nbsp;</td>
+  </tr>
+  <tr>
+    <td style="font:'Arial Black'" align="center">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="28" align="center" style="font:'Arial Black'">&nbsp;</td>
+    <td rowspan="3" align="center" style="font:'Arial Black'"><div class="tabla11" align="center"><p align="center">LAUNCH</p></div></td>
+    <td rowspan="3" align="center" style="font:'Arial Black'"><div class="tabla11" align="center"><p align="center">LAUNCHED</p></div></td>
+    <td rowspan="3" align="center" style="font:'Arial Black'"><div class="tabla11" align="center"><p align="center">WILL LAUNCH</p></div></td>
+  </tr>
+  <tr>
+    <td style="font:'Arial Black'" align="center">&nbsp;</td>
+  </tr>
+  <tr>
+    <td style="font:'Arial Black'" align="center">&nbsp;</td>
+  </tr>
+  <tr>
+    <td style="font:'Arial Black'" align="center">&nbsp;</td>
+    <td rowspan="2" align="center" style="font:'Arial Black'">&nbsp;</td>
+    <td rowspan="2" align="center" style="font:'Arial Black'">&nbsp;</td>
+    <td rowspan="2" align="center" style="font:'Arial Black'">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="37" align="center" style="font:'Arial Black'">&nbsp;</td>
+  </tr>
+ 
+</table>
+<br>
+<br>
+
+
+<p align="left"><font face="Arial Black" size="+3"  color="#000099">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LEARN - APRENDER</p></font>
+<table align="center" width="1036" border="0">
+  <tr>
+    <td width="295">&nbsp;</td>
+    <td width="50">&nbsp;</td>
+    <td width="59">&nbsp;</td>
+    <td width="183" style="font:'Arial Black'" align="center" bgcolor="#FFCCCC"><font size="+2" color="#990000"><b><u>PRESENT</b></u></font></td>
+    <td width="39">&nbsp;</td>
+    <td width="166" style="font:'Arial Black'" align="center" bgcolor="#FFCCCC"><font size="+2" color="#990000"><b><u>PAST</b></u><font></td>
+    <td width="41">&nbsp;</td>
+    <td width="169" style="font:'Arial Black'" align="center" bgcolor="#FFCCCC"><font size="+2" color="#990000"><b><u>FUTURE</u></b></font></td>
+  </tr>
+</table>
+<br>
+
+<table align="center" width="1054" border="0">
+  <tr>
+    <td width="293" rowspan="7"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image2','','VERBOS/imagenes/aprender2.png',1)"><img src="VERBOS/imagenes/aprender1.jpg" width="339" height="207" id="Image2"></a></td>
+    <td width="57" height="31" align="center" style="font:'Arial Black'">&nbsp;</td>
+    <td width="4" rowspan="7">&nbsp;</td>
+    <td width="201" rowspan="2" align="center" style="font:'Arial Black'">&nbsp;</td>
+    <td width="8" rowspan="7">&nbsp;</td>
+    <td width="204" rowspan="2" align="center" style="font:'Arial Black'">&nbsp;</td>
+    <td width="6" rowspan="7">&nbsp;</td>
+    <td width="233" rowspan="2" align="center" style="font:'Arial Black'">&nbsp;</td>
+  </tr>
+  <tr>
+    <td style="font:'Arial Black'" align="center">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="28" align="center" style="font:'Arial Black'">&nbsp;</td>
+    <td rowspan="3" align="center" style="font:'Arial Black'"><div class="tabla5" align="center"><p align="center">LEARNS</p></div></td>
+    <td rowspan="3" align="center" style="font:'Arial Black'"><div class="tabla5" align="center"><p align="center">LEARNED</p></div></td>
+    <td rowspan="3" align="center" style="font:'Arial Black'"><div class="tabla5" align="center"><p align="center">WILL LEARN</p></div></td>
+  </tr>
+  <tr>
+    <td style="font:'Arial Black'" align="center">&nbsp;</td>
+  </tr>
+  <tr>
+    <td style="font:'Arial Black'" align="center">&nbsp;</td>
+  </tr>
+  <tr>
+    <td style="font:'Arial Black'" align="center">&nbsp;</td>
+    <td rowspan="2" align="center" style="font:'Arial Black'">&nbsp;</td>
+    <td rowspan="2" align="center" style="font:'Arial Black'">&nbsp;</td>
+    <td rowspan="2" align="center" style="font:'Arial Black'">&nbsp;</td>
+  </tr>
+  <tr>
+    <td style="font:'Arial Black'" align="center">&nbsp;</td>
+  </tr>
+ 
+</table>
+<br>
+<br>
+
+<p align="left"><font face="Arial Black" size="+3"  color="#000099">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LIE - MENTIR</p></font>
+<table align="center" width="1036" border="0">
+  <tr>
+    <td width="295">&nbsp;</td>
+    <td width="50">&nbsp;</td>
+    <td width="59">&nbsp;</td>
+    <td width="183" style="font:'Arial Black'" align="center" bgcolor="#FFCCCC"><font size="+2" color="#990000"><b><u>PRESENT</b></u></font></td>
+    <td width="39">&nbsp;</td>
+    <td width="166" style="font:'Arial Black'" align="center" bgcolor="#FFCCCC"><font size="+2" color="#990000"><b><u>PAST</b></u><font></td>
+    <td width="41">&nbsp;</td>
+    <td width="169" style="font:'Arial Black'" align="center" bgcolor="#FFCCCC"><font size="+2" color="#990000"><b><u>FUTURE</u></b></font></td>
+  </tr>
+</table>
+<br>
+<table align="center" width="1054" border="0">
+  <tr>
+    <td width="293" rowspan="7"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image3','','VERBOS/imagenes/mentir2.jpg',1)"><img src="VERBOS/imagenes/mentir1.jpg" width="339" height="207" id="Image3"></a></td>
+    <td width="57" height="27" align="center" style="font:'Arial Black'">&nbsp;</td>
+    <td width="4" rowspan="7">&nbsp;</td>
+    <td width="201" rowspan="2" align="center" style="font:'Arial Black'">&nbsp;</td>
+    <td width="8" rowspan="7">&nbsp;</td>
+    <td width="204" rowspan="2" align="center" style="font:'Arial Black'">&nbsp;</td>
+    <td width="6" rowspan="7">&nbsp;</td>
+    <td width="233" rowspan="2" align="center" style="font:'Arial Black'">&nbsp;</td>
+  </tr>
+  <tr>
+    <td style="font:'Arial Black'" align="center">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="28" align="center" style="font:'Arial Black'">&nbsp;</td>
+    <td rowspan="3" align="center" style="font:'Arial Black'"><div class="tabla1" align="center"><p align="center">LIES</p></div></td>
+    <td rowspan="3" align="center" style="font:'Arial Black'"><div class="tabla1" align="center"><p align="center">LIED</p></div></td>
+    <td rowspan="3" align="center" style="font:'Arial Black'"><div class="tabla1" align="center"><p align="center">WILL LIE</p></div></td>
+  </tr>
+  <tr>
+    <td style="font:'Arial Black'" align="center">&nbsp;</td>
+  </tr>
+  <tr>
+    <td style="font:'Arial Black'" align="center">&nbsp;</td>
+  </tr>
+  <tr>
+    <td style="font:'Arial Black'" align="center">&nbsp;</td>
+    <td rowspan="2" align="center" style="font:'Arial Black'">&nbsp;</td>
+    <td rowspan="2" align="center" style="font:'Arial Black'">&nbsp;</td>
+    <td rowspan="2" align="center" style="font:'Arial Black'">&nbsp;</td>
+  </tr>
+  <tr>
+    <td style="font:'Arial Black'" align="center">&nbsp;</td>
+  </tr>
+ 
+</table>
+<br>
+<br>
+
+<table align="center" width="1036" border="0">
+  <tr>
+    <td width="295">&nbsp;</td>
+    <td width="50">&nbsp;</td>
+    <td width="59">&nbsp;</td>
+    <td width="183" style="font:'Arial Black'" align="center" bgcolor="#FFCCCC"><font size="+2" color="#990000"><b><u>PRESENT</b></u></font></td>
+    <td width="39">&nbsp;</td>
+    <td width="166" style="font:'Arial Black'" align="center" bgcolor="#FFCCCC"><font size="+2" color="#990000"><b><u>PAST</b></u><font></td>
+    <td width="41">&nbsp;</td>
+    <td width="169" style="font:'Arial Black'" align="center" bgcolor="#FFCCCC"><font size="+2" color="#990000"><b><u>FUTURE</u></b></font></td>
+  </tr>
+</table>
+<br>
+
+<p align="left"><font face="Arial Black" size="+3"  color="#000099">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LISTEN - ESCUCHAR</p></font>
+<table align="center" width="1054" border="0">
+  <tr>
+    <td width="293" rowspan="7"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4','','VERBOS/imagenes/escuchar2.jpg',1)"><img src="VERBOS/imagenes/escuchar1.jpg" width="339" height="207" id="Image4"></a></td>
+    <td width="57" height="31" align="center" style="font:'Arial Black'">&nbsp;</td>
+    <td width="4" rowspan="7">&nbsp;</td>
+    <td width="201" rowspan="2" align="center" style="font:'Arial Black'">&nbsp;</td>
+    <td width="8" rowspan="7">&nbsp;</td>
+    <td width="204" rowspan="2" align="center" style="font:'Arial Black'">&nbsp;</td>
+    <td width="6" rowspan="7">&nbsp;</td>
+    <td width="233" rowspan="2" align="center" style="font:'Arial Black'">&nbsp;</td>
+  </tr>
+  <tr>
+    <td style="font:'Arial Black'" align="center">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="28" align="center" style="font:'Arial Black'">&nbsp;</td>
+    <td rowspan="3" align="center" style="font:'Arial Black'"><div class="tabla6" align="center"><p align="center">LISTENS</p></div></td>
+    <td rowspan="3" align="center" style="font:'Arial Black'"><div class="tabla6" align="center"><p align="center">LISTENED</p></div></td>
+    <td rowspan="3" align="center" style="font:'Arial Black'"><div class="tabla6" align="center"><p align="center">WILL LISTEN</p></div></td>
+  </tr>
+  <tr>
+    <td style="font:'Arial Black'" align="center">&nbsp;</td>
+  </tr>
+  <tr>
+    <td style="font:'Arial Black'" align="center">&nbsp;</td>
+  </tr>
+  <tr>
+    <td style="font:'Arial Black'" align="center">&nbsp;</td>
+    <td rowspan="2" align="center" style="font:'Arial Black'">&nbsp;</td>
+    <td rowspan="2" align="center" style="font:'Arial Black'">&nbsp;</td>
+    <td rowspan="2" align="center" style="font:'Arial Black'">&nbsp;</td>
+  </tr>
+  <tr>
+    <td style="font:'Arial Black'" align="center">&nbsp;</td>
+  </tr>
+ 
+</table>
+<br>
+<br>
+
+<p align="left"><font face="Arial Black" size="+3"  color="#000099">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LIGHTEN - ALIGERAR </p></font>
+<table align="center" width="1036" border="0">
+  <tr>
+    <td width="295">&nbsp;</td>
+    <td width="50">&nbsp;</td>
+    <td width="59">&nbsp;</td>
+    <td width="183" style="font:'Arial Black'" align="center" bgcolor="#FFCCCC"><font size="+2" color="#990000"><b><u>PRESENT</b></u></font></td>
+    <td width="39">&nbsp;</td>
+    <td width="166" style="font:'Arial Black'" align="center" bgcolor="#FFCCCC"><font size="+2" color="#990000"><b><u>PAST</b></u><font></td>
+    <td width="41">&nbsp;</td>
+    <td width="169" style="font:'Arial Black'" align="center" bgcolor="#FFCCCC"><font size="+2" color="#990000"><b><u>FUTURE</u></b></font></td>
+  </tr>
+</table>
+<br>
+<table align="center" width="1054" border="0">
+  <tr>
+    <td width="293" rowspan="7"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','VERBOS/imagenes/aligerar2.jpg',1)"><img src="VERBOS/imagenes/aligerar1.jpg" width="339" height="207" id="Image5"></a></td>
+    <td width="57" height="27" align="center" style="font:'Arial Black'">&nbsp;</td>
+    <td width="4" rowspan="7">&nbsp;</td>
+    <td width="201" rowspan="2" align="center" style="font:'Arial Black'">&nbsp;</td>
+    <td width="8" rowspan="7">&nbsp;</td>
+    <td width="204" rowspan="2" align="center" style="font:'Arial Black'">&nbsp;</td>
+    <td width="6" rowspan="7">&nbsp;</td>
+    <td width="233" rowspan="2" align="center" style="font:'Arial Black'">&nbsp;</td>
+  </tr>
+  <tr>
+    <td style="font:'Arial Black'" align="center">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="28" align="center" style="font:'Arial Black'">&nbsp;</td>
+    <td rowspan="3" align="center" style="font:'Arial Black'"><div class="tabla10" align="center"><p align="center">LIGHTENS</p></div></td>
+    <td rowspan="3" align="center" style="font:'Arial Black'"><div class="tabla10" align="center"><p align="center">LIGHTENED</p></div></td>
+    <td rowspan="3" align="center" style="font:'Arial Black'"><div class="tabla10" align="center"><p align="center">WILL LIGHTEN</p></div></td>
+  </tr>
+  <tr>
+    <td style="font:'Arial Black'" align="center">&nbsp;</td>
+  </tr>
+  <tr>
+    <td style="font:'Arial Black'" align="center">&nbsp;</td>
+  </tr>
+  <tr>
+    <td style="font:'Arial Black'" align="center">&nbsp;</td>
+    <td rowspan="2" align="center" style="font:'Arial Black'">&nbsp;</td>
+    <td rowspan="2" align="center" style="font:'Arial Black'">&nbsp;</td>
+    <td rowspan="2" align="center" style="font:'Arial Black'">&nbsp;</td>
+  </tr>
+  <tr>
+    <td style="font:'Arial Black'" align="center">&nbsp;</td>
+  </tr>
+ 
+</table>
+<br>
+<br>
+
+<p align="left"><font face="Arial Black" size="+3"  color="#000099">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LIVE - VIVIR</p></font>
+<table align="center" width="1036" border="0">
+  <tr>
+    <td width="295">&nbsp;</td>
+    <td width="50">&nbsp;</td>
+    <td width="59">&nbsp;</td>
+    <td width="183" style="font:'Arial Black'" align="center" bgcolor="#FFCCCC"><font size="+2" color="#990000"><b><u>PRESENT</b></u></font></td>
+    <td width="39">&nbsp;</td>
+    <td width="166" style="font:'Arial Black'" align="center" bgcolor="#FFCCCC"><font size="+2" color="#990000"><b><u>PAST</b></u><font></td>
+    <td width="41">&nbsp;</td>
+    <td width="169" style="font:'Arial Black'" align="center" bgcolor="#FFCCCC"><font size="+2" color="#990000"><b><u>FUTURE</u></b></font></td>
+  </tr>
+</table>
+<br>
+<table align="center" width="1054" border="0">
+  <tr>
+    <td width="293" rowspan="7"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image6','','VERBOS/imagenes/vivi2.jpg',1)"><img src="VERBOS/imagenes/vivir1.png" width="339" height="207" id="Image6"></a></td>
+    <td width="57" height="27" align="center" style="font:'Arial Black'">&nbsp;</td>
+    <td width="4" rowspan="7">&nbsp;</td>
+    <td width="201" rowspan="2" align="center" style="font:'Arial Black'">&nbsp;</td>
+    <td width="8" rowspan="7">&nbsp;</td>
+    <td width="204" rowspan="2" align="center" style="font:'Arial Black'">&nbsp;</td>
+    <td width="6" rowspan="7">&nbsp;</td>
+    <td width="233" rowspan="2" align="center" style="font:'Arial Black'">&nbsp;</td>
+  </tr>
+  <tr>
+    <td style="font:'Arial Black'" align="center">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="28" align="center" style="font:'Arial Black'">&nbsp;</td>
+    <td rowspan="3" align="center" style="font:'Arial Black'"><div class="tabla12" align="center"><p align="center">LIVES</p></div></td>
+    <td rowspan="3" align="center" style="font:'Arial Black'"><div class="tabla12" align="center"><p align="center">LIVED</p></div></td>
+    <td rowspan="3" align="center" style="font:'Arial Black'"><div class="tabla12" align="center"><p align="center">WILL LIVE</p></</td>
+  </tr>
+  <tr>
+    <td style="font:'Arial Black'" align="center">&nbsp;</td>
+  </tr>
+  <tr>
+    <td style="font:'Arial Black'" align="center">&nbsp;</td>
+  </tr>
+  <tr>
+    <td style="font:'Arial Black'" align="center">&nbsp;</td>
+    <td rowspan="2" align="center" style="font:'Arial Black'">&nbsp;</td>
+    <td rowspan="2" align="center" style="font:'Arial Black'">&nbsp;</td>
+    <td rowspan="2" align="center" style="font:'Arial Black'">&nbsp;</td>
+  </tr>
+  <tr>
+    <td style="font:'Arial Black'" align="center">&nbsp;</td>
+  </tr>
+ 
+</table>
+<br>
+<br>
+
+
+<p align="left"><font face="Arial Black" size="+3"  color="#000099">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LAUGHT - RISA</p></font>
+<table align="center" width="1036" border="0">
+  <tr>
+    <td width="295">&nbsp;</td>
+    <td width="50">&nbsp;</td>
+    <td width="59">&nbsp;</td>
+    <td width="183" style="font:'Arial Black'" align="center" bgcolor="#FFCCCC"><font size="+2" color="#990000"><b><u>PRESENT</b></u></font></td>
+    <td width="39">&nbsp;</td>
+    <td width="166" style="font:'Arial Black'" align="center" bgcolor="#FFCCCC"><font size="+2" color="#990000"><b><u>PAST</b></u><font></td>
+    <td width="41">&nbsp;</td>
+    <td width="169" style="font:'Arial Black'" align="center" bgcolor="#FFCCCC"><font size="+2" color="#990000"><b><u>FUTURE</u></b></font></td>
+  </tr>
+</table>
+<br>
+<table align="center" width="1054" border="0">
+  <tr>
+    <td width="293" rowspan="7"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image7','','VERBOS/imagenes/reir2.jpg',1)"><img src="VERBOS/imagenes/reir1.jpg" width="339" height="207" id="Image7"></a></td>
+    <td width="57" height="27" align="center" style="font:'Arial Black'">&nbsp;</td>
+    <td width="4" rowspan="7">&nbsp;</td>
+    <td width="201" rowspan="2" align="center" style="font:'Arial Black'">&nbsp;</td>
+    <td width="8" rowspan="7">&nbsp;</td>
+    <td width="204" rowspan="2" align="center" style="font:'Arial Black'">&nbsp;</td>
+    <td width="6" rowspan="7">&nbsp;</td>
+    <td width="233" rowspan="2" align="center" style="font:'Arial Black'">&nbsp;</td>
+  </tr>
+  <tr>
+    <td style="font:'Arial Black'" align="center">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="28" align="center" style="font:'Arial Black'">&nbsp;</td>
+    <td rowspan="3" align="center" style="font:'Arial Black'"><div class="tabla2" align="center"><p align="center">LAUGHS</p></div></td>
+    <td rowspan="3" align="center" style="font:'Arial Black'"><div class="tabla2" align="center"><p align="center">LAUGHED</p></div></td>
+    <td rowspan="3" align="center" style="font:'Arial Black'"><div class="tabla2" align="center"><p align="center">WILL LAUGH</p></div></td>
+  </tr>
+  <tr>
+    <td style="font:'Arial Black'" align="center">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="27" align="center" style="font:'Arial Black'">&nbsp;</td>
+  </tr>
+  <tr>
+    <td style="font:'Arial Black'" align="center">&nbsp;</td>
+    <td rowspan="2" align="center" style="font:'Arial Black'">&nbsp;</td>
+    <td rowspan="2" align="center" style="font:'Arial Black'">&nbsp;</td>
+    <td rowspan="2" align="center" style="font:'Arial Black'">&nbsp;</td>
+  </tr>
+  <tr>
+    <td style="font:'Arial Black'" align="center">&nbsp;</td>
+  </tr>
+ 
+</table>
+<br>
+<br>
+
+<p align="left"><font face="Arial Black" size="+3"  color="#000099">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LOAD - CARGAR</p></font>
+<table align="center" width="1036" border="0">
+  <tr>
+    <td width="295">&nbsp;</td>
+    <td width="50">&nbsp;</td>
+    <td width="59">&nbsp;</td>
+    <td width="183" style="font:'Arial Black'" align="center" bgcolor="#FFCCCC"><font size="+2" color="#990000"><b><u>PRESENT</b></u></font></td>
+    <td width="39">&nbsp;</td>
+    <td width="166" style="font:'Arial Black'" align="center" bgcolor="#FFCCCC"><font size="+2" color="#990000"><b><u>PAST</b></u><font></td>
+    <td width="41">&nbsp;</td>
+    <td width="169" style="font:'Arial Black'" align="center" bgcolor="#FFCCCC"><font size="+2" color="#990000"><b><u>FUTURE</u></b></font></td>
+  </tr>
+</table>
+<br><table align="center" width="1054" border="0">
+  <tr>
+    <td width="293" rowspan="7"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image8','','VERBOS/imagenes/cargar02.jpg',1)"><img src="VERBOS/imagenes/cargar 1.jpg" width="339" height="207" id="Image8"></a></td>
+    <td width="57" height="27" align="center" style="font:'Arial Black'">&nbsp;</td>
+    <td width="4" rowspan="7">&nbsp;</td>
+    <td width="201" rowspan="2" align="center" style="font:'Arial Black'">&nbsp;</td>
+    <td width="8" rowspan="7">&nbsp;</td>
+    <td width="204" rowspan="2" align="center" style="font:'Arial Black'">&nbsp;</td>
+    <td width="6" rowspan="7">&nbsp;</td>
+    <td width="233" rowspan="2" align="center" style="font:'Arial Black'">&nbsp;</td>
+  </tr>
+  <tr>
+    <td style="font:'Arial Black'" align="center">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="28" align="center" style="font:'Arial Black'">&nbsp;</td>
+    <td rowspan="3" align="center" style="font:'Arial Black'"><div class="tabla3" align="center"><p align="center">LOADS</p></div></td>
+    <td rowspan="3" align="center" style="font:'Arial Black'"><div class="tabla3" align="center"><p align="center">LOADED</p></div></td>
+    <td rowspan="3" align="center" style="font:'Arial Black'"><div class="tabla3" align="center"><p align="center">WILL LOAD</p></div></td>
+  </tr>
+  <tr>
+    <td style="font:'Arial Black'" align="center">&nbsp;</td>
+  </tr>
+  <tr>
+    <td style="font:'Arial Black'" align="center">&nbsp;</td>
+  </tr>
+  <tr>
+    <td style="font:'Arial Black'" align="center">&nbsp;</td>
+    <td rowspan="2" align="center" style="font:'Arial Black'">&nbsp;</td>
+    <td rowspan="2" align="center" style="font:'Arial Black'">&nbsp;</td>
+    <td rowspan="2" align="center" style="font:'Arial Black'">&nbsp;</td>
+  </tr>
+  <tr>
+    <td style="font:'Arial Black'" align="center">&nbsp;</td>
+  </tr>
+ 
+</table>
+<br>
+<br>
+
+
+<p align="left"><font face="Arial Black" size="+3"  color="#000099">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LOVE - AMOR</p></font>
+<table align="center" width="1036" border="0">
+  <tr>
+    <td width="295">&nbsp;</td>
+    <td width="50">&nbsp;</td>
+    <td width="59">&nbsp;</td>
+    <td width="183" style="font:'Arial Black'" align="center" bgcolor="#FFCCCC"><font size="+2" color="#990000"><b><u>PRESENT</b></u></font></td>
+    <td width="39">&nbsp;</td>
+    <td width="166" style="font:'Arial Black'" align="center" bgcolor="#FFCCCC"><font size="+2" color="#990000"><b><u>PAST</b></u><font></td>
+    <td width="41">&nbsp;</td>
+    <td width="169" style="font:'Arial Black'" align="center" bgcolor="#FFCCCC"><font size="+2" color="#990000"><b><u>FUTURE</u></b></font></td>
+  </tr>
+</table>
+<br>
+<table align="center" width="1054" border="0">
+  <tr>
+    <td width="293" rowspan="7"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image9','','VERBOS/imagenes/amor2.jpg',1)"><img src="VERBOS/imagenes/amor1.jpg" width="339" height="207" id="Image9"></a></td>
+    <td width="57" height="27" align="center" style="font:'Arial Black'">&nbsp;</td>
+    <td width="4" rowspan="7">&nbsp;</td>
+    <td width="201" rowspan="2" align="center" style="font:'Arial Black'">&nbsp;</td>
+    <td width="8" rowspan="7">&nbsp;</td>
+    <td width="204" rowspan="2" align="center" style="font:'Arial Black'">&nbsp;</td>
+    <td width="6" rowspan="7">&nbsp;</td>
+    <td width="233" rowspan="2" align="center" style="font:'Arial Black'">&nbsp;</td>
+  </tr>
+  <tr>
+    <td style="font:'Arial Black'" align="center">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="28" align="center" style="font:'Arial Black'">&nbsp;</td>
+    <td rowspan="3" align="center" style="font:'Arial Black'"><div class="tabla4" align="center"><p align="center">LOVES</p></div></td>
+    <td rowspan="3" align="center" style="font:'Arial Black'"><div class="tabla4" align="center"><p align="center">LOVED</p></div></td>
+    <td rowspan="3" align="center" style="font:'Arial Black'"><div class="tabla4" align="center"><p align="center">WILL LOVE</p></div></td>
+  </tr>
+  <tr>
+    <td style="font:'Arial Black'" align="center">&nbsp;</td>
+  </tr>
+  <tr>
+    <td style="font:'Arial Black'" align="center">&nbsp;</td>
+  </tr>
+  <tr>
+    <td style="font:'Arial Black'" align="center">&nbsp;</td>
+    <td rowspan="2" align="center" style="font:'Arial Black'">&nbsp;</td>
+    <td rowspan="2" align="center" style="font:'Arial Black'">&nbsp;</td>
+    <td rowspan="2" align="center" style="font:'Arial Black'">&nbsp;</td>
+  </tr>
+  <tr>
+    <td style="font:'Arial Black'" align="center">&nbsp;</td>
+  </tr>
+ 
+</table>
+<table align="center" width="200" border="0">
+  <tr>
+    <td height="65"><a href="../listado de verbos.html"><img class="zoon2" src="../Imagenes siguiente menu,etc/menu.png" width="100%" height="57" /></a></td>
+  </tr>
+</table>
+
+
+
+
+</body>
+</html>

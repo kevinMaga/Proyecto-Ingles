@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+.borde{
+	color:#F00;
+	border: dashed 5px;
+	}
+.borde2{
+	color:#09F;
+	border: dashed 5px;
+	}	
+.borde3{
+	color:#9F3;
+	border: dashed 5px;
+	}	
+.fondo{
+	background-color:#0CC;
+	border-radius:20px;
+	font-family:"Courier New";
+	font-size:24px;
+	color:#FFF;
+	}
+.fondo2{
+	background-color:#F90;
+	border-radius:20px;
+	font-family:"Courier New";
+	font-size:24px;
+	color:#FFF;
+	}
+.fondo3{
+	background-color:#000;
+	border-radius:20px;
+	font-family:"Courier New";
+	font-size:48px;
+	color:#FFF;
+	}
+.fondo4{
+	background-color:#F30;
+	border-radius:20px;
+	font-family:"Courier New";
+	font-size:24px;
+	color:#FFF;
+	}	
+.zoom1 {
+	transition:0.5s;
+	border-radius:20px;
+	font-family:"Courier New";
+	font-size:20px;
+	color:#FFF;
+}
+.zoom1:hover{
+	transform:scale(1.2)
+	}
+.zoom {
+	transition:0.5s;
+}
+.zoom:hover{
+	transform:scale(1.2)
+	}
+.border{
+	color:#F90;
+	border: 2px dashed ;
+	}
+.border2{
+	color:#0CC;
+	border: 2px dashed;
+	}	
+.border3{
+	color:#F30;
+	border: 2px dashed;
+	}
+.fondoPagina {
+	background-repeat:round;
+	background-position:center;
+	background-size: 100% 100%;
+	background-image-width: auto;
+	background-image:url(IMAGENES/fondo.jpg)
+}	
+			
+		
+		
+
+

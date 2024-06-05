@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+
+.est2:hover {
+	transform:scale(1.2);
+	border-radius: 30px;
+}
+.body
+          {
+			  background:url(imagenes/Fondo.jpg);
+           background-repeat: no-repeat;
+           background-position:center;
+           background-attachment: fixed;
+		   
+		   
+		  }
+.letrero
+{
+	border:#36F 6px solid;
+	border-top-style:dashed;
+	border-bottom-style:dashed;	
+	}
+.titulo
+{
+	border:#306 2px groove;
+	font-family:orator Std;
+	
+	
+	
+	}
+.nom
+{
+border:#8F35C6 3px solid;
+	border-top-style:hidden;
+	border-bottom-style:dashed;
+		font-family:orator Std;
+		font-size:30px;
+	}
+	.nom2
+{
+border:#009FEC 3px solid;
+	border-top-style:hidden;
+	border-bottom-style:dashed;
+		font-family:orator Std;
+		font-size:30px;
+	}

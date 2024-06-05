@@ -1,0 +1,711 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Documento sin título</title>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<style type="text/css">
+.fondo {
+	background-image:url(../Imagenes%20siguiente%20menu,etc/fondo%209.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.borde-81 {
+	border: #90F 5px solid;
+}
+.borde-1 {
+	border:  DarkTurquoise 5px dashed;
+}
+.borde-2 {
+	border: MediumSeaGreen 5px dashed;
+}
+.borde-3 {
+	border: Orange 5px dashed;
+}
+.borde-4 {
+	border: purple 5px dashed;
+}
+.borde-5 {
+	border: Aqua 5px dashed;
+}
+.borde-6 {
+	border: Magenta 5px dashed;
+}
+.borde-7 {
+	border: Gold 5px dashed;
+}
+.borde-8 {
+	border: DarkOrange 5px dashed;
+}
+.borde-9 {
+	border: LightCoral 5px dashed;
+}
+.borde-10 {
+	border: DeepPink 5px dashed;
+}
+.borde-11 {
+	border: DarkOrchid 5px dashed;
+}
+.borde-12 {
+	border: LawnGreen 5px dashed;
+}
+.borde-13 {
+	border: SpringGreen 5px dashed;
+}
+.borde-14 {
+	border: Coral 5px dashed;
+}
+.borde-15 {
+	border: Chocolate 5px dashed;
+}
+.borde-16 {
+	border: MediumOrchid 5px dashed;
+}
+.borde-17 {
+	border: Crimson 5px dashed;
+}
+.borde-18 {
+	border: LimeGreen 5px dashed;
+}
+.tabla {
+	background-color:  #D2691E;
+	width: 1000px;
+	margin: auto;
+	height: 50px;
+	border-radius:80px;
+}
+.tabla:hover{
+	background-color: #FF7F50;
+	width: 1000px;
+	margin: auto;
+	height: 50px;		
+	border-radius:80px;	
+}
+.tabla1 {
+	background-color: #F00;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla1:hover{
+	background-color: #D4BF00;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla2 {
+	background-color: #D43F55;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla2:hover{
+	background-color: #7F1FAA;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla3 {
+	background-color: #009F00;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 28px
+}
+.tabla3:hover{
+	background-color: #009FFF;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 28px
+}
+.tabla4 {
+	background-color: #A0F;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla4:hover{
+	background-color: #AA1FAA;
+    width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla5 {
+	background-color: #D4BF00;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla5:hover{
+	background-color: #2ABF55;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla6 {
+	background-color: #555FFF;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla6:hover{
+	background-color: #FF1F55;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla7 {
+	background-color: #D4BFFF;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla7:hover{
+	background-color: #FF1F55;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla8 {
+	background-color: #FF5F55;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla8:hover{
+	background-color: #009FFF;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla9 {
+	background-color:  	#9370DB;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla9:hover{
+	background-color: #DC143C;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla10 {
+	background-color: #AADF00;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla10:hover{
+	background-color: #7F7FFF;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla11 {
+	background-color: #FF7FAA;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla11:hover{
+	background-color: #FF8080;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla12 {
+	background-color: #096;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla12:hover{
+	background-color: #06F;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla13 {
+	background-color: #6C9;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla13:hover{
+	background-color: #C6C;
+	width: 250px;
+	margin: auto;
+	height: 45px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla21 {
+	background-color: #D43F55;
+	width: 250px;
+	margin: auto;
+	height: 65px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla21:hover{
+	background-color: #7F1FAA;
+	width: 250px;
+	margin: auto;
+	height: 65px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla71 {
+	background-color: #D4BFFF;
+	width: 250px;
+	margin: auto;
+	height: 65px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla71:hover{
+	background-color: #FF1F55;
+	width: 250px;
+	margin: auto;
+	height: 65px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla41 {
+	background-color: #A0F;
+	width: 250px;
+	margin: auto;
+	height: 65px;
+	border-radius:80px;
+	font-size: 30px
+}
+.tabla41:hover{
+	background-color: #AA1FAA;
+	width: 250px;
+	margin: auto;
+	height: 65px;
+	border-radius:80px;
+	font-size: 30px
+}
+.zoon1 {
+	background: fixed;
+	background-image: url(../Imagenes%20siguiente%20menu,etc/fondo%206.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+</style>
+</head>
+<body class="fondo"  onload="MM_preloadImages('OFICINA FIG/Boligrafo2.jpeg','OFICINA FIG/borrador 2.jpg','OFICINA FIG/lapiz 2.png','OFICINA FIG/marcador2.jpg','OFICINA FIG/sacapunta2.jpg','OFICINA FIG/grapadora2.jpg','OFICINA FIG/folio 2.jpg','OFICINA FIG/grapa 2.jpg','OFICINA FIG/chincheta 2.jpg','OFICINA FIG/libreta 2.jpg','OFICINA FIG/carpeta 2.jpg','OFICINA FIG/sobre 2.jpg','OFICINA FIG/tijera 02.jpg','OFICINA FIG/escritorio 2.jpg','OFICINA FIG/silla 2.jpg','OFICINA FIG/archivador 2.jpg','OFICINA FIG/pendrive q.jpg','OFICINA FIG/calculadora 2.jpg','OFICINA FIG/ordenador 2.jpg','OFICINA FIG/LAPTOP02.jpg','OFICINA FIG/scanner 2.jpg','OFICINA FIG/impresora 2.jpg','OFICINA FIG/fotocopiadora 2.jpg','OFICINA FIG/lapicero 2.jpg','OFICINA FIG/Quitagrapas1.webp','OFICINA FIG/corrector2.jpg')">
+
+<marquee bgcolor="#FFCC99"><font face="Arial Black" size="+4">VOCABULARY</font></marquee>
+<p align="center"><font face="Arial Black" size="+4">OFICINA      -      OFFICE</font></p>
+<br>
+<table align="center" width="931" border="0">
+<tr>
+    <td>&nbsp;</td>
+    <td align="center" class="borde-81" bgcolor="#FFFFFF"><font size="+3"><b>INGL&Eacute;S</b></font></td>
+     <td align="center" class="borde-81"  bgcolor="#FFFFFF"><font size="+3"><b>ESPA&Ntilde;OL</b></font></td>
+  </tr>
+  <tr>
+    <td width="441" class="borde-18" height="161"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('boligrafo','','OFICINA FIG/Boligrafo2.jpeg',1)"><img src="OFICINA FIG/boligrafo 1.jpg" width="438" height="156" id="boligrafo" /></a></td>
+    <td width="229" style="font-family:'Arial Black'" align="center" onclick="document.getElementById('AUDIO10').play()" ><div class="tabla13" align="center"><p align="center"><audio id="AUDIO10" src="OFICINA FIG/audios/pen.mp3"></audio>PEN</p></div></td>
+    <td width="239" style="font-family:'Arial Black'" align="center"><div class="tabla13" align="center"><p align="center">BOLIGRAFO</p></div></td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table>
+<br>
+
+<table align="center" width="931"  border="0">
+<tr>
+    <td width="442" class="borde-17" height="161"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('borrador','','OFICINA FIG/borrador 2.jpg',1)"><img src="OFICINA FIG/borrador 1.jpg" width="439" height="156" id="borrador" /></a></td>
+    <td width="231" style="font-family:'Arial Black'" align="center"onclick="document.getElementById('AUDIO1').play()" ><div class="tabla10" align="center"><p align="center"><audio id="AUDIO1" src="OFICINA FIG/audios/BORRADOR.mp3"></audio>ERASER</p></div></td>
+    <td width="236" style="font-family:'Arial Black'" align="center"><div class="tabla10" align="center"><p align="center">BORRADOR</p></div></td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table>
+
+<br>
+
+<table align="center" width="931"  border="0">
+<tr>
+    <td width="444" class="borde-16" height="161"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('LAPIZ','','OFICINA FIG/lapiz 2.png',1)"><img src="OFICINA FIG/lapiz 01.jpg" width="440" height="156" id="LAPIZ" /></a></td>
+    <td width="231" style="font-family:'Arial Black'" align="center"onclick="document.getElementById('AUDIO2').play()" ><div class="tabla11" align="center"><p align="center"><audio id="AUDIO2" src="OFICINA FIG/audios/LAPIZ.mp3"></audio>PENCIL</p></div></td>
+    <td width="234" style="font-family:'Arial Black'" align="center"><div class="tabla11" align="center"><p align="center">L&Aacute;PIZ</p></div></td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table>
+<br>
+
+<table align="center" width="931"  border="0">
+<tr>
+    <td width="446" class="borde-15" height="161"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('MARCADOR','','OFICINA FIG/marcador2.jpg',1)"><img src="OFICINA FIG/marcador1.jpg" width="441" height="156" id="MARCADOR" /></a></td>
+    <td width="231" style="font-family:'Arial Black'" align="center" onclick="document.getElementById('AUDIO11').play()" ><div class="tabla12" align="center"><p align="center"><audio id="AUDIO11" src="OFICINA FIG/audios/marcador.mp3"></audio>MARKER</p></div></td>
+    <td width="232" style="font-family:'Arial Black'" align="center"><div class="tabla12" align="center"><p align="center">MARCADOR</p></div></td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table>
+
+<br>
+
+<table align="center" width="931"  border="0">
+<tr>
+    <td width="447" class="borde-14" height="161"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image5','','OFICINA FIG/sacapunta2.jpg',1)"><img src="OFICINA FIG/sacapunta 1.jpg" width="443" height="156" id="Image5" /></a></td>
+    <td width="234" style="font-family:'Arial Black'" align="center" onclick="document.getElementById('AUDIO12').play()" ><div class="tabla9" align="center"><p align="center"><audio id="AUDIO12" src="OFICINA FIG/audios/sacapuntas.mp3"></audio>SHARPENER</p></div></td>
+    <td width="228" style="font-family:'Arial Black'" align="center"><div class="tabla9" align="center"><p align="center">SACAPUNTAS</p></div></td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table>
+
+<br>
+
+<table align="center" width="931"  border="0">
+<tr>
+    <td width="449" class="borde-13" height="161"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image6','','OFICINA FIG/grapadora2.jpg',1)"><img src="OFICINA FIG/grapadora1.jpg" width="447" height="156" id="Image6" /></a></td>
+    <td width="239" style="font-family:'Arial Black'" align="center"onclick="document.getElementById('AUDIO3').play()" ><div class="tabla8" align="center"><p align="center"><audio id="AUDIO3" src="OFICINA FIG/audios/GRAPADORA.mp3"></audio>STAPLER</p></div></td>
+    <td width="221" style="font-family:'Arial Black'" align="center"><div class="tabla8" align="center"><p align="center">GRAPADORA</p></div></td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table>
+
+<br>
+
+<table align="center" width="931"  border="0">
+<tr>
+    <td width="453" class="borde-12" height="161"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image8','','OFICINA FIG/grapa 2.jpg',1)"><img src="OFICINA FIG/grapa 1.jpg" width="452" height="156" id="Image8" /></a></td>
+    <td width="238" style="font-family:'Arial Black'" align="center" onclick="document.getElementById('AUDIO13').play()" ><div class="tabla7" align="center"><p align="center"><audio id="AUDIO13" src="OFICINA FIG/audios/grapa.mp3"></audio>STAPLE</p></div></td>
+    <td width="218" style="font-family:'Arial Black'" align="center"><div class="tabla7" align="center"><p align="center">GRAPA</p></div></td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table>
+
+<br>
+
+<table align="center" width="931"  border="0">
+<tr>
+    <td width="452" class="borde-11" height="161"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image9','','OFICINA FIG/chincheta 2.jpg',1)"><img src="OFICINA FIG/chincheta 1.jpg" width="449" height="156" id="Image9" /></a></td>
+    <td width="240" style="font-family:'Arial Black'" align="center"onclick="document.getElementById('AUDIO4').play()" ><div class="tabla6" align="center"><p align="center"><audio id="AUDIO4" src="OFICINA FIG/audios/ALFILER.mp3"></audio>PIN</p></div></td>
+    <td width="217" style="font-family:'Arial Black'" align="center"><div class="tabla6" align="center"><p align="center">ALFILER</p></div></td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table>
+
+<br>
+
+<table align="center" width="931"  border="0">
+<tr>
+    <td width="456" class="borde-10" height="161"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image10','','OFICINA FIG/libreta 2.jpg',1)"><img src="OFICINA FIG/libreta 1.jpg" width="456" height="156" id="Image10" /></a></td>
+    <td width="239" style="font-family:'Arial Black'" align="center" onclick="document.getElementById('AUDIO14').play()" ><div class="tabla5" align="center"><p align="center"><audio id="AUDIO14" src="OFICINA FIG/audios/cuaderno.mp3"></audio>NOTEBOOK</p></div></td>
+    <td width="214" style="font-family:'Arial Black'" align="center"><div class="tabla5" align="center"><p align="center">CUADERNO</p></div></td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table>
+
+<br>
+
+<table align="center" width="931"  border="0">
+<tr>
+    <td width="458" class="borde-9" height="161"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image11','','OFICINA FIG/regla 2.jpg',0)"><img src="OFICINA FIG/regla 1.jpg" width="456" height="156" id="Image11" /></a></td>
+    <td width="237" style="font-family:'Arial Black'" align="center" onclick="document.getElementById('AUDIO15').play()" ><div class="tabla4" align="center"><p align="center"><audio id="AUDIO15" src="OFICINA FIG/audios/regla.mp3"></audio>RULER</p></div></td>
+    <td width="214" style="font-family:'Arial Black'" align="center"><div class="tabla4" align="center"><p align="center">REGLA</p></div></td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table>
+
+<br>
+
+<table align="center" width="931"  border="0">
+<tr>
+    <td width="457" class="borde-8" height="161"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image12','','OFICINA FIG/carpeta 2.jpg',1)"><img src="OFICINA FIG/carpeta 1.jpg" width="455" height="156" id="Image12" /></a></td>
+    <td width="240" style="font-family:'Arial Black'" align="center"onclick="document.getElementById('AUDIO5').play()" ><div class="tabla3" align="center"><p align="center"><audio id="AUDIO5" src="OFICINA FIG/audios/carpeta.mp3"></audio>FOLDER</p></div></td>
+    <td width="212" style="font-family:'Arial Black'" align="center"><div class="tabla3" align="center"><p align="center">CARPETA</p></div></td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table>
+
+<br>
+
+<table align="center" width="931"  border="0">
+<tr>
+    <td width="459" class="borde-7" height="161"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image13','','OFICINA FIG/sobre 2.jpg',1)"><img src="OFICINA FIG/sobre 1.jpg" width="458" height="156" id="Image13" /></a></td>
+    <td width="242" style="font-family:'Arial Black'" align="center"onclick="document.getElementById('AUDIO6').play()" ><div class="tabla2" align="center"><p align="center"><audio id="AUDIO6" src="OFICINA FIG/audios/SOBRE.mp3"></audio>ENVELOPE</p></div></td>
+    <td width="208" style="font-family:'Arial Black'" align="center"><div class="tabla2" align="center"><p align="center">SOBRE</p></div></td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table>
+
+<br>
+
+<table align="center" width="931"  border="0">
+<tr>
+    <td width="459" class="borde-6" height="161"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image14','','OFICINA FIG/tijera 02.jpg',1)"><img src="OFICINA FIG/tijera 1.jpg" width="456" height="156" id="Image14" /></a></td>
+    <td width="244" style="font-family:'Arial Black'" align="center" onclick="document.getElementById('AUDIO16').play()" ><div class="tabla1" align="center"><p align="center"><audio id="AUDIO16" src="OFICINA FIG/audios/tijera.mp3"></audio>SCISSORS</p></div></td>
+    <td width="206" style="font-family:'Arial Black'" align="center"><div class="tabla1" align="center"><p align="center">TIJERA</p></div></td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table>
+
+<br>
+
+<table align="center" width="931"  border="0">
+<tr>
+    <td width="461" class="borde-5" height="161"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image15','','OFICINA FIG/escritorio 2.jpg',1)"><img src="OFICINA FIG/escritorio 1.jpg" width="457" height="156" id="Image15" /></a></td>
+    <td width="243" style="font-family:'Arial Black'" align="center" onclick="document.getElementById('AUDIO17').play()" ><div class="tabla13" align="center"><p align="center"><audio id="AUDIO17" src="OFICINA FIG/audios/escritorio.mp3"></audio>DESK</p></div></td>
+    <td width="205" style="font-family:'Arial Black'" align="center"><div class="tabla13" align="center"><p align="center">ESCRITORIO</p></div></td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table>
+<br>
+
+<table align="center" width="931"  border="0">
+<tr>
+    <td width="463" class="borde-4" height="161"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image16','','OFICINA FIG/silla 2.jpg',1)"><img src="OFICINA FIG/silla.jpg" width="461" height="156" id="Image16" /></a></td>
+    <td width="246" style="font-family:'Arial Black'" align="center"onclick="document.getElementById('AUDIO7').play()" ><div class="tabla10" align="center"><p align="center"><audio id="AUDIO7" src="OFICINA FIG/audios/silla.mp3"></audio>CHAIR</p></div></td>
+    <td width="200" style="font-family:'Arial Black'" align="center"><div class="tabla10" align="center"><p align="center">SILLA</p></div></td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table>
+
+<br>
+
+<table align="center" width="931"  border="0">
+<tr>
+    <td width="464" class="borde-3" height="161"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image17','','OFICINA FIG/archivador 2.jpg',1)"><img src="OFICINA FIG/archivador 1.jpg" width="461" height="156" id="Image17" /></a></td>
+    <td width="245" style="font-family:'Arial Black'" align="center" onclick="document.getElementById('AUDIO18').play()" ><div class="tabla11" align="center"><p align="center"><audio id="AUDIO18" src="OFICINA FIG/audios/archivador.mp3"></audio>FILE CABINET</p></div></td>
+    <td width="200" style="font-family:'Arial Black'" align="center"><div class="tabla11" align="center"><p align="center">ARCHIVADOR</p></div></td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table>
+
+<br>
+
+<table align="center" width="931"  border="0">
+<tr>
+    <td width="466" class="borde-2" height="161"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image18','','OFICINA FIG/pendrive q.jpg',1)"><img src="OFICINA FIG/pendrive 2.jpg" width="463" height="156" id="Image18" /></a></td>
+    <td width="245" style="font-family:'Arial Black'" align="center" onclick="document.getElementById('AUDIO19').play()" ><div class="tabla12" align="center"><p align="center"><audio id="AUDIO19" src="OFICINA FIG/audios/pendrive.mp3"></audio>PENDRIVE</p></div></td>
+    <td width="198" style="font-family:'Arial Black'" align="center"><div class="tabla12" align="center"><p align="center">MEMORIA USB</p></div></td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table>
+
+<br>
+
+<table align="center" width="931"  border="0">
+<tr>
+    <td width="464" class="borde-1" height="161"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image19','','OFICINA FIG/calculadora 2.jpg',1)"><img src="OFICINA FIG/calculadora q.jpg" width="462" height="156" id="Image19" /></a></td>
+    <td width="249" style="font-family:'Arial Black'" align="center" onclick="document.getElementById('AUDIO20').play()" ><div class="tabla9" align="center"><p align="center"><audio id="AUDIO20" src="OFICINA FIG/audios/calculadora.mp3"></audio>CALCULATOR</p></div></td>
+    <td width="196" style="font-family:'Arial Black'" align="center"><div class="tabla9" align="center"><p align="center">CALCULADORA</p></div></td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table>
+
+ <br>
+
+<table align="center" width="931"  border="0">
+<tr>
+    <td width="466" class="borde-18" height="161"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image20','','OFICINA FIG/ordenador 2.jpg',1)"><img src="OFICINA FIG/ordenador 1.jpg" width="465" height="156" id="Image20" /></a></td>
+    <td width="250" style="font-family:'Arial Black'" align="center"onclick="document.getElementById('AUDIO8').play()" ><div class="tabla8" align="center"><p align="center"><audio id="AUDIO8" src="OFICINA FIG/audios/computador.mp3"></audio>COMPUTER</p></div></td>
+    <td width="193" style="font-family:'Arial Black'" align="center"><div class="tabla8" align="center"><p align="center">ORDENADOR</p></div></td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table> 
+
+<br>
+
+<table align="center" width="931"  border="0">
+<tr>
+    <td width="469" class="borde-17" height="161"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image21','','OFICINA FIG/LAPTOP02.jpg',1)"><img src="OFICINA FIG/laptop 2.jpg" width="467" height="156" id="Image21" /></a></td>
+    <td width="250" style="font-family:'Arial Black'" align="center" onclick="document.getElementById('AUDIO21').play()" ><div class="tabla7" align="center"><p align="center"><audio id="AUDIO21" src="OFICINA FIG/audios/laptop.mp3"></audio>LAPTOP</p></div></td>
+    <td width="190" style="font-family:'Arial Black'" align="center"><div class="tabla71" align="center"><p align="center">ORDENADOR PORTATIL</p></div></td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table>
+  
+  <br>
+
+<table align="center" width="931"  border="0">
+<tr>
+    <td width="469" class="borde-16" height="161"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image22','','OFICINA FIG/scanner 2.jpg',1)"><img src="OFICINA FIG/scanner1.jpg" width="466" height="156" id="Image22" /></a></td>
+    <td width="251" style="font-family:'Arial Black'" align="center" onclick="document.getElementById('AUDIO22').play()" ><div class="tabla6" align="center"><p align="center"><audio id="AUDIO22" src="OFICINA FIG/audios/scanner.mp3"></audio>SCANNER</p></div></td>
+    <td width="189" style="font-family:'Arial Black'" align="center"><div class="tabla6" align="center"><p align="center">ESC&Aacute;NER</p></div></td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table>
+
+<br>
+
+<table align="center" width="931"  border="0">
+<tr>
+    <td width="470" class="borde-15" height="161"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image23','','OFICINA FIG/impresora 2.jpg',1)"><img src="OFICINA FIG/impresora 1.jpg" width="466" height="156" id="Image23" /></a></td>
+    <td width="252" style="font-family:'Arial Black'" align="center"onclick="document.getElementById('AUDIO9').play()" ><div class="tabla5" align="center"><p align="center"><audio id="AUDIO9" src="OFICINA FIG/audios/IMPRESORA.mp3"></audio>PRINTER</p></div></td>
+    <td width="187" style="font-family:'Arial Black'" align="center"><div class="tabla5" align="center"><p align="center">IMPRESORA</p></div></td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table>
+
+<br>
+
+<table align="center" width="931"  border="0">
+<tr>
+    <td width="470" class="borde-14" height="161"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image25','','OFICINA FIG/lapicero 2.jpg',1)"><img src="OFICINA FIG/lapicero 1.jpg" width="468" height="156" id="Image25" /></a></td>
+    <td width="255" style="font-family:'Arial Black'" align="center" onclick="document.getElementById('AUDIO23').play()" ><div class="tabla41" align="center"><p align="center"><audio id="AUDIO23" src="OFICINA FIG/audios/portalapices.mp3"></audio>PENCIL HOLDER</p></div></td>
+    <td width="184" style="font-family:'Arial Black'" align="center"><div class="tabla4" align="center"><p align="center">PORTAL&Aacute;PICES</p></div></td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table>
+  
+  <br>
+
+<table align="center" width="931"  border="0">
+<tr>
+    <td width="471" class="borde-13" height="161"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image24','','OFICINA FIG/fotocopiadora 2.jpg',1)"><img src="OFICINA FIG/FOTOCOPIADORA1.jpg" width="471" height="155" id="Image24" /></a></td>
+    <td width="251" style="font-family:'Arial Black'" align="center" onclick="document.getElementById('AUDIO24').play()" ><div class="tabla3" align="center"><p align="center"><audio id="AUDIO24" src="OFICINA FIG/audios/fotocopiador.mp3"></audio>PHOTOCOPIER</p></div></td>
+    <td width="187" style="font-family:'Arial Black'" align="center"><div class="tabla3" align="center"><p align="center">FOTOCOPIADORA</p></div></td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table>
+
+<br>
+
+<table align="center" width="931"  border="0">
+<tr>
+    <td width="473" class="borde-12" height="161"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image27','','OFICINA FIG/corrector2.jpg',1)"><img src="OFICINA FIG/corrector1.jpg" width="472" height="156" id="Image27" /></a></td>
+    <td width="253" style="font-family:'Arial Black'" align="center" onclick="document.getElementById('AUDIO25').play()" ><div class="tabla2" align="center"><p align="center"><audio id="AUDIO25" src="OFICINA FIG/audios/liquipaper.mp3"></audio>LIQUID PAPER</p></div></td>
+    <td width="183" style="font-family:'Arial Black'" align="center"><div class="tabla21" align="center"><p align="center">L&Iacute;QUIDO CORRECTOR</p></div></td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<table align="center" width="200" border="0">
+  <tr>
+    <td height="65"><a href="../Partes de la casa.html"><img class="zoon2" src="../Imagenes siguiente menu,etc/menu.png" width="100%" height="57" /></a></td>
+  </tr>
+</table>
+</body>
+</html>
+
+
+
