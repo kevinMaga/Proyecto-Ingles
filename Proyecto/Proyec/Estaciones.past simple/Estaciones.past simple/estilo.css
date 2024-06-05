@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+.estilo1 {
+	border:#99F solid 4px;
+}
+
+.img1:hover {
+	transform:scale(1.2);
+}
+.titulo
+{
+	font-family:"Lucida Console", Monaco, monospace;
+	font-size:50px;
+	color:#F33;
+	border:#C39 3px solid;
+	
+	
+	}
+.titulos2
+{
+	font-family:"Lucida Console", Monaco, monospace;
+	font-size:20px;
+	color:#004242;
+	border:#639 3px dashed;
+	padding:5px;
+	}
+.letras
+{
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 29px;
+	color: #300;
+	}
+
+.titulos3
+{
+	font-family:"Lucida Console", Monaco, monospace;
+	font-size:20px;
+	color:#369;
+	border:#600 3px dashed;
+	padding:5px;
+	}
+	.titulos4
+{
+	font-family:"Lucida Console", Monaco, monospace;
+	font-size:20px;
+	color:#F69;
+	border:#39F 3px dashed;
+	padding:5px;
+	}
+.filo
+{
+	border-top:#609 2px solid;
+	}
+.space
+{
+	padding:6px;	}
+	

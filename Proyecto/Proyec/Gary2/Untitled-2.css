@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+
+.fondo1 {
+	color: #00F;
+	border: #00F 2px solid;
+	border-radius: 10;
+}
+.fondo2 {
+	background-attachment:local;
+	background-position:center;
+	background-repeat:round;
+	background-size:100% 100%;
+	background-image:url(Sin%20t%C3%ADtulo-1.png);
+	
+}

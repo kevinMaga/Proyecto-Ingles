@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+
+.fondo1 {
+	border: green 4px solid;
+	color:#30F
+}
+.fondo2 {
+	border: Purple 4px solid;
+	color:#900
+}
+.fondo3 {
+	border: red 4px solid;
+}
+

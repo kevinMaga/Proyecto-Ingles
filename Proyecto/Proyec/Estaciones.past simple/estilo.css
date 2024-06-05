@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+
+.estilo1 {
+	border:#909 solid 4px;
+}
+
+.estilo2 {
+	border: #36F solid 4px;
+}
+
+
+.img1 {
+	height:150;
+	width::150;
+}
+
+.img1:hover {
+	height:170;
+	width::170;
+}
+
