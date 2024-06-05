@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+.border{
+	background-color:#3F0;
+	border-radius:20px;
+	color:#FFF;
+	border:#FFF 3PX solid;
+	}
+.border2{
+	background-color:#FFF;
+	border-radius:20px;
+	color:#FFF;
+	}		
+.IMAGEN{
+	border-radius:30PX ;
+	border:#FFF 3PX  solid;
+	transition:0.5s;
+}
+
+.IMAGEN:HOVER{
+	transform:scale(1.1,1.1);
+}

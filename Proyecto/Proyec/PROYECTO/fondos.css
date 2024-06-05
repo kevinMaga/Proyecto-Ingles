@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+.fondo1 {
+	border: 2px green solid;
+	background-color: #0CF;
+}
+.fondo2 {
+	border: 2px yellow solid;
+	background-color: #3CF;
+}
+.fondo3 {
+	border: 2px red solid;
+	background-color: #09F;
+}
+.fondo4 {
+	border: 2px blue solid;
+	background-color: #0CF;
+}
+.imagen {
+	background:#3F0;
+	background-attachment:local;
+	background-color:#FF0;
+	background-position:center;
+	background-size:100% 100%;
+	background-repeat:round;
+	background-image:url(resumen-bokeh-fondo-degradado-color-brillante-purpura-azul_40417-111.jpg)
+}
+.fondo5 {
+	background-color: #96F;
+}
+

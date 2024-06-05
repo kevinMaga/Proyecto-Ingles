@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+.zoon1 {
+	background: fixed;
+	background-image: url(../Imagenes%20siguiente%20menu,etc/Fondo%202.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.zoon11 {
+	background: fixed;
+	background-image: url(../Imagenes%20siguiente%20menu,etc/fondo%2010.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.zoon2 {
+	background-image: url(../Imagenes%20siguiente%20menu,etc/fondo%206.png);
+}
+
+.Fuente {
+	color: #2A0000;
+	font-size:20px
+}
+
+.FuenteN {
+	color: #000;
+	background-color: #FFBF55;
+	font-size:36px;
+}
+.FuenteN4 {
+	color: #000;
+	background-color: #00BF55;
+	font-size:36px;
+}
+.FuenteN5 {
+	color: #000;
+	background-color: #D43F55;
+	font-size:36px;
+}
+.FuenteN6 {
+	color: #000;
+	background-color: #555FFF;
+	font-size:36px;
+}
+.FuenteN7 {
+	color: #000;
+	background-color: #AABF00;
+	font-size:36px;
+}
+.FuenteN8 {
+	color: #000;
+	background-color: #E79601;
+	font-size:36px;
+}
+.FuenteN9 {
+	color: #000;
+	background-color: #9F009F;
+	font-size:36px;
+}
+
+
+.FuenteN2 {
+	background-color: #FFBF55;
+	font-size: 56px;
+	color: rgb(0,204,0);
+}
+.FuenteN24 {
+	background-color: #00BF55;
+	font-size: 56px;
+	color: rgb(0,204,0);
+}
+.FuenteN25 {
+	background-color: #D43F55;
+	font-size: 56px;
+	color: rgb(0,204,0);
+}
+.FuenteN26 {
+	background-color: #555FFF;
+	font-size: 56px;
+	color: rgb(0,204,0);
+}
+.FuenteN27 {
+	background-color: #AABF00;
+	font-size: 56px;
+	color: rgb(0,204,0);
+}
+.FuenteN28 {
+	background-color:  #E79601;
+	font-size: 56px;
+	color: rgb(0,204,0);
+}
+.FuenteN29 {
+	background-color:  #9F009F;
+	font-size: 56px;
+	color: rgb(0,204,0);
+}
+
+.FuenteN3 {
+	background-color:black;
+	color: rgb(255,0,0);
+}

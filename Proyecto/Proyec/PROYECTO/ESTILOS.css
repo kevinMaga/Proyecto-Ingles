@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+
+.LETRAS {
+	font-size: 56px;
+	color: #000;
+}
+.LetraMarque {
+	color: #2A0000;
+	background-color: #557FFF;
+	border:white 4px solid;
+}
+.ellink {
+	color: blue;
+}
+.LetrasP {
+	font-size: 32px;
+	color: rgb(255,0,255);
+}
+.LetrasMp {
+	font-size: 24px;
+	color: #2A0000;
+}
+
+.FILL {
+	background-color: rgb(204,255,0);
+}
+.LETRASMmp {
+	font-size: 12px;
+	color: rgb(255,0,255);
+}
+
+.Ejem {
+	color: White;
+	font-size: 36px;
+}
+.frio {
+	transition: transform .4s;
+}
+.borde-1 {
+	border: red 4px dashed;
+}
+.borde-2 {
+	border: green 4px dashed;
+}
+.borde-3 {
+	border: Orange 4px dashed;
+}
+.borde-4 {
+	border: purple 4px dashed;
+}
+.borde-5 {
+	border: Aqua 4px dashed;
+}
+.borde-6 {
+	border: Magenta 4px dashed;
+}
+.borde-7 {
+	border: Gold 4px dashed;
+}
+.borde-8 {
+	border: DarkOrange 4px dashed;
+}
+.borde-9 {
+	border: LightCoral 4px dashed;
+}
+.borde-10 {
+	border: DeepPink 4px dashed;
+}
+.borde-11 {
+	border: DarkOrchid 4px dashed;
+}
+.borde-12 {
+	border: LawnGreen 4px dashed;
+}
+.borde-13 {
+	border: SpringGreen 4px dashed;
+}
+
+.frio:hover {
+	border:green 6px solid;
+	border-radius:30px;
+  	transform: scale(1.1);
+}
+
+.Ejeme {
+	color: White;
+	font-size: 26px;
+}

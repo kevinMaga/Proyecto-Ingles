@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+
+.Borde0{
+	border-radius: 10px;
+	border:#F63 2px solid;
+}
+.Borde1{
+	background-color:#0F9;
+	border:#0C6 3px solid;
+	border-radius: 10px;
+}
+.Border2 {
+	background-color:#0F9;
+	border:#0C6 3px solid;
+	border-radius: 10px;
+}
+.zoom:hover{
+	transform:scale(1.05,1.05)
+}
+.zoom{
+	
+	transition: transform .2s;
+	
+}
+.Border3 {
+	background-color:#FF9;
+	border:#FC0 2px solid;
+	border-radius: 20px;
+}
+.Border4 {
+	background-color:#39C;
+	border:#03C 2px solid;
+	border-radius: 25px;
+}
+.Border5 {
+	border: 3px solid;
+	border-color:#30F;
+	border-radius: 25px;
+}
+.Border11 {
+	border: 3px solid;
+	
+	border-color:#039;
+	border-radius: 25px;
+}
+.Border12 {
+	border: 3px solid;
+	
+	border-color:#393;
+	border-radius: 25px;
+}
+
+
+.Border22 {
+	border: 3px solid;
+	
+	border-color:#060;
+	border-radius: 25px;
+}
+
+.Border33 {
+	border: 3px solid;
+
+	border-color:#903;
+	border-radius: 25px;
+}
+.Border44 {
+	border: 3px solid;
+	
+    border-color:#903;
+	border-radius: 25px;
+}
+.texto{
+
+		font-size: 50px;
+
+		color: #FFF;
+
+		font-weight: bold;
+
+		text-align: center;
+
+		text-shadow: rgb(0, 128, 128) 0px 1px 0px,
+
+		rgb(181, 181, 181) 0px 2px 0px,
+
+		rgb(172, 172, 172) 0px 3px 0px,
+
+		rgb(160, 160, 160) 0px 4px 0px,
+
+		rgb(145, 145, 145) 0px 5px 0px,
+
+		rgb(127, 127, 127) 0px 6px 0px,
+
+		rgba(0, 0, 0, 0.199219) 0px 7px 1px,
+
+		rgba(0, 0, 0, 0.296875) 0px 8px 6px;
+}

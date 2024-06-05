@@ -1,0 +1,53 @@
+.Fond1{
+	background-attachment:local;
+	background-repeat:round;
+	background-position:center;
+	background-size:100% 100%;
+	border-image-width:auto;
+	background-image:url(images/fondo2.png);
+}
+
+.text1
+{
+	font-weight: bold;
+	font-size:68px;
+	font-family:Arial;
+	text-shadow: 0 1px 0 #ccc,
+	             0 2px 0 #c9c9c9,
+				 0 3px 0 #bbb,
+				 0 4px 0 #b9b9b9,
+				 0 5px 0 #aaa,
+				 0 6px 1px rgba(0,0,0,.1),
+				 0 0 5px  rgba(0,0,0,.1),
+				 0 1px 3px rgba(0,0,0,.3),
+				 0 3px 5px rgba(0,0,0,.2),
+				 0 5px 10px rgba(0,0,0,.25),
+				 0 10px 10px rgba(0,0,0,.2),
+				 0 20px 20px rgba(0,0,0,.15);
+				 color:#FFF;
+				 text-align:center;				 		 
+	}
+	
+.tab2
+{
+	background:#F00;
+border:#90C 4px solid;
+border-radius:15px;}
+.tab3{
+	background:#F3C;
+border:#C36 4px solid;
+border-radius:15px;}
+
+	.a{
+	text-shadow: 0.1em 0.1em 0.05em #000;
+	font-weight: bold;
+}
+	.zoom:hover
+	{
+		transform: scale(1.1)}
+		.Text2 {
+
+  background: linear-gradient(#066,#6C3);
+  -webkit-background-clip: text;
+  color: transparent;  
+}

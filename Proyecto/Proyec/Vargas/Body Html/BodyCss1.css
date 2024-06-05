@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+.Fond1{
+	background-attachment:local;
+	background-repeat:round;
+	background-position:center;
+	background-size:100% 100%;
+	border-image-width:auto;
+	background-image:url(../Corel/Botones%20Img/mmmmmm.png)}
+	
+.Let1 {
+	font-weight: bold;
+  font-size: 68px;
+  font-family:"Times New Roman";
+  text-shadow: 0 1px 0 #ccc, 
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+  color:#30C;
+  text-align: center; 
+}
+
+.tab1{ background-color:#006;	
+border:#0FF 2px solid;
+border-radius:10x;
+}
+  .zoom{
+        transition: width 2s, height 2s, transform 2s;
+        -moz-transition: width 2s, height 2s, -moz-transform 2s;
+        -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+        -o-transition: width 2s, height 2s,-o-transform 2s;
+    }
+    .zoom:hover{
+     
+        transform : scale(1.2);
+        -moz-transform : scale(1.2);      
+        -webkit-transform : scale(1.2);   
+        -o-transform : scale(1.2);        
+    }
+	
+
+.tabs{
+border:solid #00F 2px;
+border-radius:20%;
+}
+
+.tabro{
+	border:#0C6 3 px solid;
+	border-radius:10px;	
+}
+.a{text-shadow: 0.1em 0.1em 0.05em #333}

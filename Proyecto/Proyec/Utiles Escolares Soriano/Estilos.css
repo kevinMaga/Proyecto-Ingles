@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.Titulos {
+	border:#900 2px solid;
+	
+}
+
+.TablasP {
+	font-family: "Exotc350 DmBd BT";
+	font-size: 25px;
+	border:#0CC 3px dashed;
+	border-radius:15px;
+	
+}
+
+.TablasS {
+	font-family: "Exotc350 DmBd BT";
+	font-size: 25px;
+	border:#6CF 3px solid;
+	border-radius:15px;
+	
+}
+
+

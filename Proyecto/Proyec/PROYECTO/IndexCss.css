@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+
+.M {
+	transition: transform .4s;
+}
+
+.M:hover {
+  border:blue 6px solid;
+  transform: scale(1.1);
+		
+}
+
+.V {
+	transition: transform .4s;
+}
+
+.V:hover {
+  border:blue 6px solid;
+  transform: scale(1.1);
+		
+}
+
+.C {
+	transition: transform .4s;
+}
+
+.C:hover {
+  border:blue 6px solid;
+  transform: scale(1.1);
+		
+}
+
+.N {
+	transition: transform .4s;
+}
+
+.N:hover {
+  transform: scale(1.1);
+		
+}
+
+.TituV {
+	color: blue;
+	transition: transform .4s;
+}
+
+.TituV:hover {
+  	color:red;
+  	background-color:black;
+	transform: scale(1.1);
+		
+}
+
+.TituVege {
+	color: blue;
+	transition: transform .4s;
+}
+
+.TituVege:hover {
+  	color:red;
+  	background-color:black;
+	transform: scale(1.1);
+		
+}
+
+.TituCa {
+	color: blue;
+	transition: transform .4s;
+}
+
+.TituCa:hover {
+  	color:red;
+  	background-color:black;
+	transform: scale(1.1);
+
+		
+}
+.Pas {
+	transition: transform .4s;
+}
+
+.Pas:hover {
+  border:blue 6px solid;
+  transform: scale(1.1);
+		
+}
+
+

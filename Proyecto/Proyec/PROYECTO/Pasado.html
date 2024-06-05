@@ -1,0 +1,98 @@
+<html>
+<head>
+<title>PASADO</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="ESTILOS.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body background="Img/Pasa/Fondo.jpeg" onLoad="MM_preloadImages('Img/Pasa/Frio2.jpg','Img/Pasa/hungry.jpg','Img/Pasa/Girl2.jpg')">
+
+<p><font size="+9"><marquee behavior="alternate" bgcolor="#99FFCC" class="LetraMarque">PASADO</marquee></font></p>
+<br>
+<table align="center" width="964" height="287" border="0" bgcolor="Black">
+  <tr>
+    <td colspan="3"><div class="Ejem" align="center">EJEMPLO 1</div></td>
+  </tr>
+  <tr>
+    <td width="193"><div class="Ejem" align="center">POSITIVO</div></td>
+    <td width="268"><div class="Ejeme" align="center">It was so cold in the morning.</div></td>
+    <td width="162" rowspan="3"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Frio','','Img/Pasa/Frio2.jpg',1)"><img class="frio" src="Img/Pasa/Frio.jpg" name="Frio" width="262" height="262" id="Frio"></a></td>
+  </tr>
+  <tr>
+    <td><div class="Ejem" align="center">NEGATIVO</div></td>
+    <td><div class="Ejeme" align="center">It wasn't so cold in the morning.</div></td>
+  </tr>
+  <tr>
+    <td><div class="Ejem" align="center">INTERROGATIVO</div></td>
+    <td><div class="Ejeme" align="center">Was it so cold in the morning?.</div></td>
+  </tr>
+</table>
+
+
+
+<br>
+<table align="center" width="1032" height="287" border="0" bgcolor="Black">
+  <tr>
+    <td colspan="3"><div class="Ejem" align="center">EJEMPLO 2</div></td>
+  </tr>
+  <tr>
+    <td width="193"><div class="Ejem" align="center">POSITIVO</div></td>
+    <td width="268"><div class="Ejeme" align="center">Marian and Christian were hungry when they arrived home.</div></td>
+    <td width="162" rowspan="3"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Hungry','','Img/Pasa/hungry.jpg',1)"><img class="frio" src="Img/Pasa/hungry2.jpg" width="262" height="262" id="Hungry"></a></td>
+  </tr>
+  <tr>
+    <td><div class="Ejem" align="center">NEGATIVO</div></td>
+    <td><div class="Ejeme" align="center">Marian and Christian were not hungry when they arrived home.</div></td>
+  </tr>
+  <tr>
+    <td><div class="Ejem" align="center">INTERROGATIVO</div></td>
+    <td><div class="Ejeme" align="center">Were Marian and Christian hungry?.</div></td>
+  </tr>
+</table>
+
+
+<br>
+<table align="center" width="1064" height="287" border="0" bgcolor="Black">
+  <tr>
+    <td colspan="3"><div class="Ejem" align="center">EJEMPLO 3</div></td>
+  </tr>
+  <tr>
+    <td width="193"><div class="Ejem" align="center">POSITIVO</div></td>
+    <td width="268"><div class="Ejeme" align="center">Mary was a great student when she was at the university.</div></td>
+    <td width="162" rowspan="3"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Girl','','Img/Pasa/Girl2.jpg',1)"><img class="frio" src="Img/Pasa/Girl.jpg" width="262" height="262" id="Girl"></a></td>
+  </tr>
+  <tr>
+    <td><div class="Ejem" align="center">NEGATIVO</div></td>
+    <td><div class="Ejeme" align="center">Mary was not a great student when she was at the university.</div></td>
+  </tr>
+  <tr>
+    <td><div class="Ejem" align="center">INTERROGATIVO</div></td>
+    <td><div class="Ejeme" align="center">Was Mary a great student when she was at the university?.</div></td>
+  </tr>
+</table>
+
+</body>
+</html>
