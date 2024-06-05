@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+.div{
+	width:1000px;
+	height: 55px;
+	padding: 9px;
+	margin:auto;
+	border: #0C3 3px solid;
+	background-color:#;
+	
+		
+}
+.V1{
+		margin:auto;
+	border:#582C2C 3px dotted;
+	background-color:#FFC;	
+}
+.V2{
+		margin:auto;
+	border:#FFC 3px dotted;
+	background-color:#582C2C;	
+}
+
+
+.let {
+	font-family: Exotc350 DmBd BT;
+	font-size: 30;
+	font-style: normal;
+	text-align:center;
+	border:#FAE07A 2px solid;
+	
+}
+.zoom:hover{
+	transform:scale(1.15);
+	}
+
+.body
+          {background:url(Fondo2.jpg);
+           background-repeat: no-repeat;
+           background-position: center center;
+           background-attachment: fixed;
+		   }
+.let2 {
+	font-family: "Exotc350 DmBd BT";
+	font-size: 30;
+	font-style: normal;
+	text-align: center;
+	border: #FB753C 2px solid;
+	color: #630;
+
+}
+

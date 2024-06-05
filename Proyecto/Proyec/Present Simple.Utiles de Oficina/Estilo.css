@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+
+.estilo1 {
+	border: #93C 5px solid;
+	background:#9CC;
+}
+.estilo2 {
+	border: #FFF 5px solid;
+	background:#0CC;	
+	
+}
+.estilo3 {
+	
+	background: #C4E1FF;
+	font-size:22px;
+	
+}
+
+
+.img {
+	width: 150;
+	height: 150;
+}
+
+.img:hover {
+	width:200;
+	height: 200;
+}
+.body
+          {
+			  background:url(Imagenes/fondo.jpg);
+           background-repeat: no-repeat;
+           background-position:center;
+           background-attachment: fixed;
+		   
+		   
+		  }
+.tit
+{
+	color:#C30;
+	font-size:20px;
+	font-family:"Arial Black";
+	border: #0000FF 2px solid;
+}
+
+	

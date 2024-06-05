@@ -1,0 +1,158 @@
+@charset "utf-8";
+/* CSS Document */
+
+.BORDE1
+{
+	border: #09F 2px dashed;s
+}
+.BORDER2 
+{
+	border: #939 2px dashed;
+}
+.BORDER3
+{
+	border:#C63 2px dashed;	
+}
+.BORDER4
+{
+	border:#903 2px dashed;	
+}
+.BORDER5
+{
+	border:#F60 2px dashed;
+}
+.BORDER6
+{
+	border:#F69 2px dashed;
+}
+.BORDER7
+{
+	border:#0C0 2px dashed;
+}
+.BORDER8
+{
+	border:#00F 2px dashed;
+}
+.BORDER9
+{
+	border:#933 2px dashed;
+}
+.zoom:hover
+{
+transform:scale(2)
+}
+#contenedor{
+	width:1000px;
+	height:1590px;
+	background-color:#F90;
+	margin: 0.5em,auto;
+	padding: 0.5em;
+		}
+#contenedor2{
+	height:450px;
+	width:875px;
+	background-color:#FFC;
+	margin: 0.5em,auto;
+	padding: 0.5em;
+	border-radius:40px;
+	}
+#contenedor3{
+	height:450px;
+	width:875px;
+	background-color:#FFC;
+	margin: 0.5em,auto;
+	padding: 0.5em;
+	border-radius:40px;
+	}
+#contenedor4{
+	height:450px;
+	width:875px;
+	background-color:#FFC;
+	margin: 0.5em,auto;
+	padding: 0.5em;
+	border-radius:40px;
+	}
+#contenedor5{
+	height: 150px;
+	float: left;
+	}	
+#contenedor6{
+	height: inherit;
+	float: right;
+	}		
+			
+#bloque1{
+	height:75px;
+	background-color:#FFF;
+	border-radius:40px;
+	margin: 0.5em;
+	text-align:center;
+	font-family:"Comic Sans MS";
+	font-size:50px;
+	color:#F90;
+	}
+	
+#bloque21{
+	height:55px;
+	width:500px;
+	background-color:#000;
+	border-radius:40px;
+	margin: 0.5em;
+	text-align:center;
+	font-family:"Comic Sans MS";
+	font-size:40px;
+	color:#FFF
+	}	
+#bloque22{
+	height:30px;
+	width:500px;
+	background-color:#0CF;
+	border-radius:40px;
+	margin: 3em;
+	text-align:center;
+	font-family:"Comic Sans MS";
+	font-size:24px;
+	}	
+#bloque23{
+	height:80px;
+	width:80px;
+	margin: 2em;
+	}	
+.zoon1 {
+	background: fixed;
+	background-image: url(../Imagenes%20siguiente%20menu,etc/fondo%2010.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.zoom41{
+        transition: width 2s, height 2s, transform 2s;
+        -moz-transition: width 2s, height 2s, -moz-transform 2s;
+        -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+        -o-transition: width 2s, height 2s,-o-transform 2s;
+}
+.zoom41:hover{
+     
+        transform : scale(1.25);
+        -moz-transform : scale(1.25);      
+        -webkit-transform : scale(1.25);   
+        -o-transform : scale(1.25);        
+}
+.zoon2 {
+	background: fixed;
+	background-image: url(../Imagenes%20siguiente%20menu,etc/fondo%206.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.zoon3 {
+	background: fixed;
+	background-image: url(../Imagenes%20siguiente%20menu,etc/fondo8.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+		
+					

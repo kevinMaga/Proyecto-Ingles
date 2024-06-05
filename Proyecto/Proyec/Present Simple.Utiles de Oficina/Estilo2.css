@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.estructura {
+	
+	background: #6F9;
+	color:#609;
+	font-size:16px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande";
+	padding:5px;
+	font-style:inherit;
+
+}
+
+.img:hover {
+	transform:scale(1.1);
+	border-radius:10%;
+	border:#FFF 3px dashed;
+}
+.oracion
+
+{
+	padding:7px;
+		background: #FC6;
+	font-size:16px;
+	color:#000;
+	font-family:"Arial Black", Gadget, sans-serif;
+	
+
+	}
+	
+.titulo
+
+{
+	padding:7px;
+	background: #0CC;
+	font-size:16px;
+	color:#000;
+	font-family:"Arial Black";
+		}

@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+estilo1 {
+	
+	background: #069;
+}
+
+
+.estilo3 {
+	
+	background: #FB75BB;
+	color:#FFF;
+	font-size:16px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	padding:5px;
+	
+}
+
+
+.img {
+	width: 150;
+	height: 150;
+}
+.img:hover {
+	transform:scale(1.25);
+	border-radius:10%;
+	border:#DA92B9 2px solid;
+}
+.padd
+
+{
+	padding:10px;
+		background: #06C;
+	font-size:16px;
+	color:#FFF;
+	font-family:"Arial Black", Gadget, sans-serif;
+
+	}
+	
+.let
+{
+	font-size:14px;
+	color:#FFFF;
+	font-family:"Palatino Linotype";
+	}
+	
+.pad2
+
+{
+	padding:7px;
+		
+	background: #FDEEF5;
+	font-size:16px;
+	color:#B30059;
+	font-family:"Arial Black";
+		}
+
